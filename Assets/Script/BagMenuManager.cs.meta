@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b64a595bea9190844a3d8de97309ab72
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - itemMenu: {fileID: 2328730606753796258, guid: e0e450d0b8bc4dc4fb5b04df3e2d9424, type: 3}
+  - furnitureContent: {fileID: 286805065556797887, guid: 7023b87b46600154a8b1d9fe710616de, type: 3}
+  - foodContent: {fileID: 4190329391951601436, guid: 61a6d4ca9ddb3504893738883432bd88, type: 3}
+  - clothesContent: {fileID: 3057811776326221723, guid: 6d9418529c752f843af262b7537ce09b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
