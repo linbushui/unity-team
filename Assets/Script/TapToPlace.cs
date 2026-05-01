@@ -61,6 +61,7 @@ public class TapToPlace : MonoBehaviour
             {
                 // 把物体放在点击位置
                 objectToPlace.transform.position = hitPose.position;
+                objectToPlace.transform.LookAt(Camera.main.transform);
 
                 // 播放动画
                 PlaySpawnAnimation(objectToPlace);

@@ -31,6 +31,7 @@ public class DragSpawnUIItem : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 
         Vector3 startPos = arCamera.transform.position + arCamera.transform.forward * 0.6f;
         currentObject = GameObject.Instantiate(prefab3D, startPos, Quaternion.identity);
+        currentObject.transform.LookAt(Camera.main.transform);
 
         // 禁用重力弹跳
         var rb = currentObject.GetComponent<Rigidbody>();
