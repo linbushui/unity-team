@@ -125,14 +125,5 @@ public class BagMenuManager : MonoBehaviour
         Debug.Log("背包 UI 需要刷新");
     }
 
-    // ========== 放置物品==========
-   public void OnStartPlacement(string itemType)
-{
-    DragToPlace drag = FindObjectOfType<DragToPlace>();
-    if (drag != null)
-    {
-        drag.StartPlacement(itemType);
-        CloseBagMenu();  // 关闭背包，让用户专注拖拽
-    }
-}
+  
 }
