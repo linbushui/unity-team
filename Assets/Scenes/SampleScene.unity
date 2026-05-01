@@ -1223,7 +1223,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 1
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -1292,6 +1292,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &124714531
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124714527}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &125521063
 GameObject:
   m_ObjectHideFlags: 0
@@ -4044,6 +4065,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: be1f5d5e5a8c51143a3af89ba340f1cb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 124714529}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: be1f5d5e5a8c51143a3af89ba340f1cb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 124714531}
   m_SourcePrefab: {fileID: 100100000, guid: be1f5d5e5a8c51143a3af89ba340f1cb, type: 3}
 --- !u!1 &361619575
 GameObject:
@@ -4639,6 +4663,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 954651450dbeb054492fb44d48d1caf0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1486276476}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 954651450dbeb054492fb44d48d1caf0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1486276478}
   m_SourcePrefab: {fileID: 100100000, guid: 954651450dbeb054492fb44d48d1caf0, type: 3}
 --- !u!1 &379839359
 GameObject:
@@ -7740,7 +7767,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 1
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -7809,6 +7836,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &773190233
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773190229}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &783511207
 GameObject:
   m_ObjectHideFlags: 0
@@ -9962,6 +10010,10 @@ MonoBehaviour:
   title3: {fileID: 1168977479}
   heightFitter: {fileID: 759070995}
   backpackItems: []
+  bedPrefab: {fileID: 124714527}
+  bowlPrefab: {fileID: 773190229}
+  bowPrefab: {fileID: 1486276474}
+  foodPrefab: {fileID: 2037328076}
 --- !u!1 &994461958
 GameObject:
   m_ObjectHideFlags: 0
@@ -16037,7 +16089,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 1
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -16106,6 +16158,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1486276478
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486276474}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1487909492
 GameObject:
   m_ObjectHideFlags: 0
@@ -19973,6 +20046,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8037731b0e8c2df41aa680d4af37e45e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2037328078}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8037731b0e8c2df41aa680d4af37e45e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2037328080}
   m_SourcePrefab: {fileID: 100100000, guid: 8037731b0e8c2df41aa680d4af37e45e, type: 3}
 --- !u!1 &1872062478
 GameObject:
@@ -21167,7 +21243,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 1
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -21236,6 +21312,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2037328080
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037328076}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2045630803
 GameObject:
   m_ObjectHideFlags: 0
@@ -21925,6 +22022,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6f695769fd7883a41af38a4060405d7b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 773190231}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6f695769fd7883a41af38a4060405d7b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 773190233}
   m_SourcePrefab: {fileID: 100100000, guid: 6f695769fd7883a41af38a4060405d7b, type: 3}
 --- !u!1001 &2116673218
 PrefabInstance:

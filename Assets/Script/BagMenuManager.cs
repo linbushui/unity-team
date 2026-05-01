@@ -29,6 +29,12 @@ public class BagMenuManager : MonoBehaviour
     
     // 背包物品列表
     public List<ShopItem> backpackItems = new List<ShopItem>();
+
+    // 各种模型
+public GameObject bedPrefab;
+public GameObject bowlPrefab;
+public GameObject bowPrefab;
+public GameObject foodPrefab;
     
     void Awake()
     {
@@ -124,6 +130,46 @@ public class BagMenuManager : MonoBehaviour
     {
         Debug.Log("背包 UI 需要刷新");
     }
+
+    public void OnStartPlacement(string itemType)
+{
+    // 1. 确定预制体
+    GameObject prefabToSpawn = null;
+    switch (itemType)
+    {
+        case "Bed":   prefabToSpawn = bedPrefab; break;
+        case "Bowl":  prefabToSpawn = bowlPrefab; break;
+        case "Bow":   prefabToSpawn = bowPrefab; break;
+        case "Food":  prefabToSpawn = foodPrefab; break;
+        default:
+            Debug.LogWarning($"未知物品类型：{itemType}");
+            return;
+    }
+
+    if (prefabToSpawn == null)
+    {
+        Debug.LogError($"预制体未赋值：{itemType}");
+        return;
+    }
+
+    // 2. 生成物品（贴在平面高度）
+    Vector3 spawnPos = Camera.main.transform.position
+                     + Camera.main.transform.forward * 1.8f;
+    spawnPos.y = 0;
+
+    GameObject newItem = Instantiate(prefabToSpawn, spawnPos, Quaternion.identity);
+
+    // 3. ✅ 确保物品一定可以被 grab
+    //    前提：预制体上必须已有 XR Grab Interactable + Collider
+
+    // 4. ✅ 开启平面视觉（桌面的网格）
+    ShowARPlanes(true);
+
+    // 5. 关闭背包界面
+    CloseBagMenu();
+
+    Debug.Log($"✅ 生成可拖拽物品：{itemType}，平面视觉已开启");
+}
 
   
 }

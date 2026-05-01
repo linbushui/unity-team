@@ -70,7 +70,8 @@ public class TapToPlace : MonoBehaviour
                         {
                             plane.gameObject.SetActive(false);
                         }
-                        planeManager.enabled = false;
+                        planeManager.enabled = true;
+                        planeManager.gameObject.SetActive(false);
                     }
 
                     // 隐藏所有已生成的点云
@@ -80,7 +81,8 @@ public class TapToPlace : MonoBehaviour
                         {
                             pointCloud.gameObject.SetActive(false);
                         }
-                        pointCloudManager.enabled = false;
+                        pointCloudManager.enabled = true;
+                        pointCloudManager.gameObject.SetActive(false);
                     }
 
                     Debug.Log("平面和点云已隐藏");
