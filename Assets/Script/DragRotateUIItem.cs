@@ -14,9 +14,13 @@ public class DragSpawnUIItem : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     private ARRaycastManager raycastManager;
     private List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
+    // 旋转控制相关
+    [SerializeField] private float rotationSpeed = 0.3f;
+    private float lastFingerAngle = 0f;
+    private bool rotating = false;
+
     void Start()
     {
-        // 找到 AR 相机
         arCamera = Camera.main;
         raycastManager = FindObjectOfType<ARRaycastManager>();
     }
@@ -25,11 +29,10 @@ public class DragSpawnUIItem : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     {
         if (prefab3D == null) return;
 
-        // 生成物体：初始在相机前方
         Vector3 startPos = arCamera.transform.position + arCamera.transform.forward * 0.6f;
         currentObject = GameObject.Instantiate(prefab3D, startPos, Quaternion.identity);
 
-        // 禁止物理弹跳
+        // 禁用重力弹跳
         var rb = currentObject.GetComponent<Rigidbody>();
         if (rb != null)
         {
@@ -42,6 +45,36 @@ public class DragSpawnUIItem : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     {
         if (currentObject == null || raycastManager == null) return;
 
+        // 支持双指旋转
+        if (Input.touchCount == 2)
+        {
+            Touch touch0 = Input.GetTouch(0);
+            Touch touch1 = Input.GetTouch(1);
+
+            float currentAngle = Mathf.Atan2(
+                touch1.position.y - touch0.position.y,
+                touch1.position.x - touch0.position.x
+            ) * Mathf.Rad2Deg;
+
+            if (!rotating)
+            {
+                lastFingerAngle = currentAngle;
+                rotating = true;
+            }
+            else
+            {
+                float delta = currentAngle - lastFingerAngle;
+                currentObject.transform.Rotate(Vector3.up, -delta * rotationSpeed, Space.World);
+                lastFingerAngle = currentAngle;
+            }
+            return;
+        }
+        else
+        {
+            rotating = false;
+        }
+
+        // 单指拖拽放置
         if (raycastManager.Raycast(eventData.position, hits, TrackableType.PlaneWithinPolygon))
         {
             Pose hitPose = hits[0].pose;
@@ -49,15 +82,13 @@ public class DragSpawnUIItem : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         }
         else
         {
-            // 没检测到平面，就让模型停在相机前方（可视）
             currentObject.transform.position = arCamera.transform.position + arCamera.transform.forward * 0.6f;
         }
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        if (currentObject == null) return;
-        Debug.Log("放置完成：" + currentObject.name);
-        currentObject = null; // 清空引用
+        currentObject = null;
+        rotating = false;
     }
 }
