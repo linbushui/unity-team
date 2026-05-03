@@ -1,0 +1,3602 @@
+fileFormatVersion: 2
+guid: a695e9d84ab11b74880c1fa5e8e459ef
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface10
+    second: {fileID: 2100000, guid: c5ce4596ae7a9ec499028556e09fab05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface11
+    second: {fileID: 2100000, guid: 8e37e78d3ca8cd44a860d1f34d1804ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface12
+    second: {fileID: 2100000, guid: 02e0de07ab22cfd4683f0fa603397612, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface13
+    second: {fileID: 2100000, guid: 658e4dbdc85d97a4eb3d64ca098faa3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface3
+    second: {fileID: 2100000, guid: c454ef70ca8d57f4f8f1616b164ccb92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface4
+    second: {fileID: 2100000, guid: d630afcf13af8724e86de38c5cbcfec7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface6
+    second: {fileID: 2100000, guid: 7e613b73bfe011340a62b51aff62271a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface8
+    second: {fileID: 2100000, guid: 971a7bb443fd1d0458934ba4beb0f7b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface9
+    second: {fileID: 2100000, guid: b1f36d97a853ad6498f91522cb8db06d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 65a3fd770c327d8418dcc07a3cde966b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rabbitrig_1__blinn2
+    second: {fileID: 2100000, guid: e10bc17343144a649800c5f2cbbfea31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rabbitrig_1__pasted__blinn3
+    second: {fileID: 2100000, guid: 90da7f78f1a3dc64da4d985c80b875c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rabbitrig_1__pasted__blinn4
+    second: {fileID: 2100000, guid: f4e38aa40ceb97e45b8c82bf006dd2a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rabbitrig_1__pasted__lambert12
+    second: {fileID: 2100000, guid: 933bcf1901ec9c24e99d790609acb888, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rabbitrig_1__pasted__lambert13
+    second: {fileID: 2100000, guid: e8190621f0ee9184486bd2e11a3ffb74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rabbitrig_1__pasted__lambert14
+    second: {fileID: 2100000, guid: 6a093fd11ad6b094ab0023fe9f6b646b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rabbitrig_1__pasted__lambert15
+    second: {fileID: 2100000, guid: 4561ddb99cdaf934897cbe98e75e6df4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rabbitrig_1__pasted__lambert2
+    second: {fileID: 2100000, guid: 8dc89301cd7feee4ab384eb7a816b0a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rabbitrig_1__pasted__lambert3
+    second: {fileID: 2100000, guid: 089136ab7e9d68d4d9c79175b59a7e2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rabbitrig_1__pasted__lambert4
+    second: {fileID: 2100000, guid: 18aa737d0789f3a4b92b8aeefdcfe6d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rabbitrig_1__pasted__lambert5
+    second: {fileID: 2100000, guid: ef1fc9b1a6a09c24491d99dcec32749a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rabbitrig_1__pasted__lambert6
+    second: {fileID: 2100000, guid: fa88a63823a2c8b40ac0f35692ae93cc, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: "\u9732\u5A1C\u7761\u89C9\u65B0\u7248\u672C(Clone)"
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: home
+      parentName: "\u9732\u5A1C\u7761\u89C9\u65B0\u7248\u672C(Clone)"
+      position: {x: -0, y: 0.15877642, z: -0.09635176}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube1
+      parentName: home
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 3.508554, y: 3.508554, z: 3.508554}
+    - name: imagePlane1
+      parentName: home
+      position: {x: -0, y: 0, z: -0.8786341}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: imagePlane2
+      parentName: home
+      position: {x: 0.77997494, y: 0, z: 0}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube2
+      parentName: home
+      position: {x: -0.004420941, y: 0.14783432, z: -0.13283631}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.6835004, y: 1.6835004, z: 1.6835004}
+    - name: pCube4
+      parentName: home
+      position: {x: -0.08360021, y: 0.13176508, z: -0.1793478}
+      rotation: {x: -0.25806883, y: 0.09765668, z: 0.34018087, w: 0.89896643}
+      scale: {x: 1.6835004, y: 1.6835004, z: 1.6835004}
+    - name: pCube5
+      parentName: home
+      position: {x: 0.03240169, y: 0.12939179, z: -0.17444573}
+      rotation: {x: -0.115902945, y: -0.5227427, z: -0.10991454, w: 0.83739203}
+      scale: {x: 1.6835004, y: 1.6835004, z: 1.6835004}
+    - name: pCube6
+      parentName: home
+      position: {x: -0.08390896, y: 0.07234287, z: -0.1911164}
+      rotation: {x: -0.2070003, y: 0.031435773, z: 0.6243783, w: 0.7525386}
+      scale: {x: 1.6835004, y: 1.6835004, z: 1.6835004}
+    - name: pCube7
+      parentName: home
+      position: {x: 0.08515476, y: 0.08811258, z: -0.20773658}
+      rotation: {x: 0.24750474, y: 0.4634896, z: 0.72408223, w: 0.44679266}
+      scale: {x: 1.6835004, y: 1.6835004, z: 1.6835004}
+    - name: pCube8
+      parentName: home
+      position: {x: -0.002529521, y: 0.07906335, z: -0.23180535}
+      rotation: {x: -0.5901186, y: 0, z: -0, w: 0.8073166}
+      scale: {x: 1.6835004, y: 1.6835004, z: 1.6835004}
+    - name: pCube9
+      parentName: home
+      position: {x: -0.19154975, y: -0.15333652, z: -0.04578842}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.9680324, y: 1.9680324, z: 1.9680324}
+    - name: pCube10
+      parentName: home
+      position: {x: -0.19154975, y: -0.1366934, z: -0.10550446}
+      rotation: {x: 0.029399723, y: -0, z: -0, w: 0.99956775}
+      scale: {x: 1.9680324, y: 1.9680324, z: 1.9680324}
+    - name: pCube11
+      parentName: home
+      position: {x: -0.15619425, y: -0.12197923, z: -0.17478023}
+      rotation: {x: 0.029399723, y: -0, z: -0, w: 0.99956775}
+      scale: {x: 1.9680324, y: 1.9680324, z: 1.9680324}
+    - name: pCube12
+      parentName: home
+      position: {x: -0.16863012, y: -0.13415752, z: -0.17549725}
+      rotation: {x: 0.029399723, y: -0, z: -0, w: 0.99956775}
+      scale: {x: 1.9680324, y: 1.9680324, z: 1.9680324}
+    - name: pCube13
+      parentName: home
+      position: {x: -0.17601024, y: -0.15139483, z: -0.10055353}
+      rotation: {x: 0.029399723, y: -0, z: -0, w: 0.99956775}
+      scale: {x: 1.9680324, y: 1.9680324, z: 1.9680324}
+    - name: pCube14
+      parentName: home
+      position: {x: 0.21420583, y: -0.12655304, z: -0.19671583}
+      rotation: {x: 0.029399723, y: -0, z: -0, w: 0.99956775}
+      scale: {x: 1.9680324, y: 1.9680324, z: 1.9680324}
+    - name: pCube15
+      parentName: home
+      position: {x: 0.1912862, y: -0.13193247, z: -0.10522416}
+      rotation: {x: 0.029399723, y: -0, z: -0, w: 0.99956775}
+      scale: {x: 1.9680324, y: 1.9680324, z: 1.9680324}
+    - name: pCube16
+      parentName: home
+      position: {x: 0.20682572, y: -0.1466339, z: -0.10027322}
+      rotation: {x: 0.029399723, y: -0, z: -0, w: 0.99956775}
+      scale: {x: 1.9680324, y: 1.9680324, z: 1.9680324}
+    - name: pCube17
+      parentName: home
+      position: {x: 0.1912862, y: -0.14856735, z: -0.04578842}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.9680324, y: 1.9680324, z: 1.9680324}
+    - name: pCube18
+      parentName: home
+      position: {x: 0.22664171, y: -0.11437984, z: -0.17433281}
+      rotation: {x: 0.029399723, y: -0, z: -0, w: 0.99956775}
+      scale: {x: 1.9680324, y: 1.9680324, z: 1.9680324}
+    - name: pCube24
+      parentName: home
+      position: {x: -0.21309961, y: -0.12927939, z: 0.05115754}
+      rotation: {x: 0.10384245, y: 0.2438313, z: -0.22265705, w: 0.9381828}
+      scale: {x: 1.3899703, y: 1.3899703, z: 1.3899703}
+    - name: pCube25
+      parentName: home
+      position: {x: -0.21437651, y: -0.09182644, z: 0.08388793}
+      rotation: {x: 0.01677517, y: 0.16942456, z: -0.090067446, w: 0.9812756}
+      scale: {x: 0.7626971, y: 0.7626971, z: 0.7626971}
+    - name: pCube26
+      parentName: home
+      position: {x: -0.21204685, y: -0.11744526, z: 0.09273351}
+      rotation: {x: -0.01945671, y: 0.083088905, z: -0.0053236363, w: 0.996338}
+      scale: {x: 0.60318404, y: 0.60318404, z: 0.60318404}
+    - name: pCube27
+      parentName: home
+      position: {x: -0.22566997, y: -0.085785374, z: 0.058867242}
+      rotation: {x: 0.020516768, y: 0.10521999, z: -0.11265372, w: 0.9878345}
+      scale: {x: 0.76700485, y: 0.76700485, z: 0.76700485}
+    - name: pCube28
+      parentName: home
+      position: {x: -0.22588947, y: -0.10314785, z: 0.039436027}
+      rotation: {x: -0.00036578553, y: -0.037005894, z: 0.009877268, w: 0.9992662}
+      scale: {x: 0.61916226, y: 0.61916226, z: 0.61916226}
+    - name: paw
+      parentName: home
+      position: {x: -0, y: -0.012067773, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube21
+      parentName: paw
+      position: {x: -0.23100968, y: -0.07524219, z: 0.018277554}
+      rotation: {x: 0.0042376313, y: -0.036764283, z: -0.11442831, w: 0.992742}
+      scale: {x: 0.82164145, y: 0.82164145, z: 0.82164145}
+    - name: pCube20
+      parentName: paw
+      position: {x: -0.22213402, y: -0.051542647, z: -0.005631115}
+      rotation: {x: 0.0042376313, y: -0.036764283, z: -0.11442831, w: 0.992742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube22
+      parentName: paw
+      position: {x: -0.21936354, y: -0.052069124, z: -0.04464829}
+      rotation: {x: 0.0042376313, y: -0.036764283, z: -0.11442831, w: 0.992742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube23
+      parentName: paw
+      position: {x: -0.2249276, y: -0.07524219, z: -0.063727014}
+      rotation: {x: 0.0042376313, y: -0.036764283, z: -0.11442831, w: 0.992742}
+      scale: {x: 0.7219596, y: 0.7219596, z: 0.7219596}
+    - name: pCube19
+      parentName: paw
+      position: {x: -0.23120554, y: -0.10025492, z: -0.02281366}
+      rotation: {x: -0.030966843, y: -0.034422744, z: 0.043701947, w: 0.9979711}
+      scale: {x: 1.6674896, y: 1.6674896, z: 1.6674896}
+    - name: pCube29
+      parentName: home
+      position: {x: -0, y: -0.12334058, z: 0.0023894706}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: aiSkyDomeLight1
+      parentName: "\u9732\u5A1C\u7761\u89C9\u65B0\u7248\u672C(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:imagePlane2
+      parentName: "\u9732\u5A1C\u7761\u89C9\u65B0\u7248\u672C(Clone)"
+      position: {x: 0.33726412, y: 0.13373977, z: -0.11684767}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 0.9511471, y: 0.9511471, z: 0.9511471}
+    - name: rabbitrig_1_:pCube2
+      parentName: "\u9732\u5A1C\u7761\u89C9\u65B0\u7248\u672C(Clone)"
+      position: {x: 0.009687627, y: 0.1604844, z: -0.095571324}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 2.844174, y: 2.844174, z: 2.844174}
+    - name: rabbitrig_1_:transform2
+      parentName: rabbitrig_1_:pCube2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:imagePlane4
+      parentName: "\u9732\u5A1C\u7761\u89C9\u65B0\u7248\u672C(Clone)"
+      position: {x: 0.008157595, y: -0.11423561, z: -0.18496789}
+      rotation: {x: -0.0014274006, y: 0.70710534, z: 0.70710534, w: 0.0014274006}
+      scale: {x: 0.6480611, y: 0.6480611, z: 0.6480611}
+    - name: rabbitrig_1_:imagePlane5
+      parentName: "\u9732\u5A1C\u7761\u89C9\u65B0\u7248\u672C(Clone)"
+      position: {x: 0.0067538964, y: 0.10750803, z: -0.9971903}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.6, y: 0.6, z: 0.5}
+    - name: rabbitrig_1_:pCube4
+      parentName: "\u9732\u5A1C\u7761\u89C9\u65B0\u7248\u672C(Clone)"
+      position: {x: 0.0064419066, y: 0.054429956, z: -0.15910137}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.2198408, y: 1.2198408, z: 1.2198408}
+    - name: rabbitrig_1_:transform4
+      parentName: rabbitrig_1_:pCube4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:aiSkyDomeLight1
+      parentName: "\u9732\u5A1C\u7761\u89C9\u65B0\u7248\u672C(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:aiAreaLight1
+      parentName: "\u9732\u5A1C\u7761\u89C9\u65B0\u7248\u672C(Clone)"
+      position: {x: 0.024431068, y: 0.2325683, z: 0}
+      rotation: {x: -0.18225157, y: 0, z: -0, w: 0.9832519}
+      scale: {x: 1.5082499, y: 1.5082499, z: 1.5082499}
+    - name: rabbitrig_1_:aiAreaLight2
+      parentName: "\u9732\u5A1C\u7761\u89C9\u65B0\u7248\u672C(Clone)"
+      position: {x: -0.09814493, y: 0.18783885, z: 0}
+      rotation: {x: 0, y: -0.28540662, z: -0, w: 0.9584065}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:aiAreaLight3
+      parentName: "\u9732\u5A1C\u7761\u89C9\u65B0\u7248\u672C(Clone)"
+      position: {x: -0, y: 0.23120625, z: -0.35194728}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:group1
+      parentName: "\u9732\u5A1C\u7761\u89C9\u65B0\u7248\u672C(Clone)"
+      position: {x: -0, y: 0, z: 0.13815145}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:pSphere1
+      parentName: rabbitrig_1_:group1
+      position: {x: -0, y: 0, z: -0.13815145}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:pasted__pCube21
+      parentName: rabbitrig_1_:group1
+      position: {x: -0, y: 0, z: -0.13815145}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:pasted__pCube20
+      parentName: rabbitrig_1_:group1
+      position: {x: -0, y: 0, z: -0.13815145}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:pasted__pCube22
+      parentName: rabbitrig_1_:group1
+      position: {x: -0, y: 0, z: -0.13815145}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:pasted__pCube19
+      parentName: rabbitrig_1_:group1
+      position: {x: -0, y: 0, z: -0.13815145}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:pasted__pCube7
+      parentName: rabbitrig_1_:group1
+      position: {x: -0, y: 0, z: -0.13815145}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:pasted__pCube6
+      parentName: rabbitrig_1_:group1
+      position: {x: -0, y: 0, z: -0.13815145}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:pSphere2
+      parentName: rabbitrig_1_:group1
+      position: {x: -0, y: 0, z: -0.13815145}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:pasted__pCube23
+      parentName: rabbitrig_1_:group1
+      position: {x: -0, y: 0, z: -0.13815145}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Group
+      parentName: "\u9732\u5A1C\u7761\u89C9\u65B0\u7248\u672C(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FitSkeleton
+      parentName: rabbitrig_1_:Group
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Root
+      parentName: rabbitrig_1_:FitSkeleton
+      position: {x: -1.7080678e-37, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0.7055819, y: -0.0464137, z: -0.7055819, w: 0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Spine1
+      parentName: rabbitrig_1_:Root
+      position: {x: -0.027598996, y: -2.7755573e-16, z: 1.13328624e-17}
+      rotation: {x: 5.43119e-16, y: 9.295092e-15, z: 0.029434444, w: 0.99956673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Spine11
+      parentName: rabbitrig_1_:Spine1
+      position: {x: -0.024408622, y: 5.5511148e-17, z: 4.570954e-16}
+      rotation: {x: 1.11032545e-17, y: 1.8272066e-16, z: 0.11586297, w: 0.9932652}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Chest
+      parentName: rabbitrig_1_:Spine11
+      position: {x: -0.023748374, y: 1.11022296e-17, z: 1.14836856e-17}
+      rotation: {x: -4.4168753e-15, y: 9.95401e-16, z: -0.22272609, w: 0.97488105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Head
+      parentName: rabbitrig_1_:Chest
+      position: {x: -0.011099362, y: -0.04301947, z: 7.876503e-17}
+      rotation: {x: 2.0120242e-17, y: -2.3405161e-17, z: 0.7161916, w: 0.6979037}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:HeadEnd
+      parentName: rabbitrig_1_:Head
+      position: {x: -0.022737503, y: -5.5511148e-18, z: 3.2650324e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Eye
+      parentName: rabbitrig_1_:Head
+      position: {x: -0.040737245, y: 0.051529035, z: -0.03553055}
+      rotation: {x: -0.23489216, y: -0.20079146, z: -0.61735123, w: 0.7234542}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:EyeEnd
+      parentName: rabbitrig_1_:Eye
+      position: {x: -0.011892186, y: -2.2204459e-16, z: -4.9960035e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:joint4
+      parentName: rabbitrig_1_:Head
+      position: {x: -0.06965183, y: -0.0043787947, z: -0.067444645}
+      rotation: {x: 0.042692285, y: 0.9544288, z: -0.013452346, w: -0.2950629}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:joint5
+      parentName: rabbitrig_1_:joint4
+      position: {x: -0.034353185, y: -2.4980017e-17, z: -6.661338e-17}
+      rotation: {x: 8.782303e-17, y: -0.11207548, z: 3.510561e-16, w: 0.9936997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:joint6
+      parentName: rabbitrig_1_:joint5
+      position: {x: -0.039327294, y: -3.330669e-17, z: -1.11022296e-16}
+      rotation: {x: 7.941825e-17, y: -0.07314764, z: 8.49933e-16, w: 0.9973211}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:joint7
+      parentName: rabbitrig_1_:joint6
+      position: {x: -0.037300445, y: -4.7184477e-17, z: 1.7763567e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Eye1
+      parentName: rabbitrig_1_:Head
+      position: {x: -0.041089665, y: 0.052004013, z: 0.025016738}
+      rotation: {x: 0.23489001, y: 0.20079538, z: -0.6173613, w: 0.7234452}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:EyeEnd1
+      parentName: rabbitrig_1_:Eye1
+      position: {x: -0.011892111, y: -4.4408918e-17, z: -1.11022296e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Shoulder
+      parentName: rabbitrig_1_:Chest
+      position: {x: -0.023296522, y: 0.0163371, z: -0.032247603}
+      rotation: {x: -0.6091284, y: 0.7930716, z: 0.00000024334935, w: -0.00000018690747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Elbow
+      parentName: rabbitrig_1_:Shoulder
+      position: {x: -0.016033357, y: -7.494005e-17, z: 2.88421e-10}
+      rotation: {x: 4.2089818e-17, y: 6.674073e-17, z: -0.1791648, w: 0.98381907}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Fingers3
+      parentName: rabbitrig_1_:Elbow
+      position: {x: -0.01116494, y: -2.9420909e-16, z: 1.8794957e-10}
+      rotation: {x: -0.002780857, y: -0.0013860328, z: -0.32510108, w: 0.9456742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Fingers4
+      parentName: rabbitrig_1_:Fingers3
+      position: {x: -0.024269847, y: 5.5511148e-17, z: -1.6653344e-17}
+      rotation: {x: 0.0014401262, y: 0.0041920943, z: -0.13729265, w: 0.9905206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Fingers5
+      parentName: rabbitrig_1_:Fingers4
+      position: {x: -0.03306606, y: -4.9960035e-17, z: 2.7755574e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:frontFootSideInner
+      parentName: rabbitrig_1_:Fingers3
+      position: {x: -0.027778361, y: -0.021725236, z: -0.020575589}
+      rotation: {x: 0.0018324221, y: 0.0025096391, z: -0.14607659, w: 0.9892684}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:frontFootSideOuter
+      parentName: rabbitrig_1_:Fingers3
+      position: {x: -0.02758464, y: -0.02191583, z: 0.023151437}
+      rotation: {x: 0.0018324221, y: 0.0025096391, z: -0.14607659, w: 0.9892684}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:frontHeel
+      parentName: rabbitrig_1_:Fingers3
+      position: {x: -0.014049315, y: -0.036859535, z: -0.00009842148}
+      rotation: {x: 0.0018324221, y: 0.0025096391, z: -0.14607659, w: 0.9892684}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:joint1
+      parentName: rabbitrig_1_:Root
+      position: {x: 0.029444156, y: 0.03322946, z: 2.176551e-16}
+      rotation: {x: -1.0111161e-30, y: -1.7673943e-15, z: 0.9264735, w: 0.37636006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:joint2
+      parentName: rabbitrig_1_:joint1
+      position: {x: -0.022090469, y: 2.7755574e-17, z: -2.9388126e-17}
+      rotation: {x: 6.623508e-17, y: -1.3041351e-16, z: -0.087723486, w: 0.9961449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:joint3
+      parentName: rabbitrig_1_:joint2
+      position: {x: -0.044106122, y: 4.4408918e-17, z: 4.7710434e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Knee
+      parentName: rabbitrig_1_:Root
+      position: {x: -0.01679678, y: 0.0017829757, z: -0.06450997}
+      rotation: {x: -0.013059414, y: 0.019226888, z: -0.8020432, w: 0.59681374}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Ankle
+      parentName: rabbitrig_1_:Knee
+      position: {x: -0.016718311, y: 1.6653344e-17, z: -2.2204459e-17}
+      rotation: {x: -3.1685693e-17, y: -1.2664978e-16, z: 0.10738544, w: 0.99421746}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Toes3
+      parentName: rabbitrig_1_:Ankle
+      position: {x: -0.016609665, y: -4.4408918e-17, z: -1.11022296e-17}
+      rotation: {x: 0.8042643, y: 0.5937153, z: 0.019295495, w: -0.016992947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:backHeel
+      parentName: rabbitrig_1_:Toes3
+      position: {x: 0.019094368, y: -0.025904972, z: 0.00015696338}
+      rotation: {x: -0.0016156301, y: -0.0021724468, z: 0.1525232, w: 0.9882962}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Toes5
+      parentName: rabbitrig_1_:Toes3
+      position: {x: -0.0301138, y: 6.383782e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Toes4
+      parentName: rabbitrig_1_:Toes5
+      position: {x: -0.027614016, y: -2.7755574e-17, z: 4.4408918e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:backFootSideOuter
+      parentName: rabbitrig_1_:Toes5
+      position: {x: -0.0031880387, y: -0.00889866, z: 0.016431622}
+      rotation: {x: -0.0016156301, y: -0.0021724468, z: 0.1525232, w: 0.9882962}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:backFootSideInner
+      parentName: rabbitrig_1_:Toes5
+      position: {x: -0.0035089157, y: -0.008867445, z: -0.019845495}
+      rotation: {x: -0.0016156301, y: -0.0021724468, z: 0.1525232, w: 0.9882962}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:MotionSystem
+      parentName: rabbitrig_1_:Group
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:MainSystem
+      parentName: rabbitrig_1_:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Main
+      parentName: rabbitrig_1_:MainSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKSystem
+      parentName: rabbitrig_1_:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKParentConstraintToChest_M
+      parentName: rabbitrig_1_:FKSystem
+      position: {x: 4.2156725e-10, y: 0.07862428, z: 0.021402134}
+      rotation: {x: -0.7070437, y: -0.009447571, z: 0.7070437, w: 0.009447571}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetHead_M
+      parentName: rabbitrig_1_:FKParentConstraintToChest_M
+      position: {x: -0.011099362, y: -0.04301947, z: -3.5721153e-16}
+      rotation: {x: 0, y: 0, z: 0.7161916, w: 0.6979037}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraHead_M
+      parentName: rabbitrig_1_:FKOffsetHead_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKHead_M
+      parentName: rabbitrig_1_:FKExtraHead_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXHead_M
+      parentName: rabbitrig_1_:FKHead_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetEye_R
+      parentName: rabbitrig_1_:FKXHead_M
+      position: {x: -0.040737245, y: 0.051529035, z: -0.03553055}
+      rotation: {x: -0.23489217, y: -0.20079146, z: -0.61735123, w: 0.7234542}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraEye_R
+      parentName: rabbitrig_1_:FKOffsetEye_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKEye_R
+      parentName: rabbitrig_1_:FKExtraEye_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXEye_R
+      parentName: rabbitrig_1_:FKEye_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetjoint4_R
+      parentName: rabbitrig_1_:FKXHead_M
+      position: {x: -0.06965183, y: -0.0043787947, z: -0.067444645}
+      rotation: {x: 0.04269228, y: 0.9544288, z: -0.0134523455, w: -0.2950629}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtrajoint4_R
+      parentName: rabbitrig_1_:FKOffsetjoint4_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKjoint4_R
+      parentName: rabbitrig_1_:FKExtrajoint4_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXjoint4_R
+      parentName: rabbitrig_1_:FKjoint4_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetjoint5_R
+      parentName: rabbitrig_1_:FKXjoint4_R
+      position: {x: -0.034353185, y: -2.2204459e-17, z: -1.11022296e-16}
+      rotation: {x: 0, y: -0.11207547, z: -0, w: 0.9936997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtrajoint5_R
+      parentName: rabbitrig_1_:FKOffsetjoint5_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKjoint5_R
+      parentName: rabbitrig_1_:FKExtrajoint5_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXjoint5_R
+      parentName: rabbitrig_1_:FKjoint5_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetjoint6_R
+      parentName: rabbitrig_1_:FKXjoint5_R
+      position: {x: -0.039327294, y: -4.163336e-17, z: -6.661338e-17}
+      rotation: {x: 0, y: -0.07314764, z: -0, w: 0.9973211}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtrajoint6_R
+      parentName: rabbitrig_1_:FKOffsetjoint6_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKjoint6_R
+      parentName: rabbitrig_1_:FKExtrajoint6_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXjoint6_R
+      parentName: rabbitrig_1_:FKjoint6_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS1joint6_R
+      parentName: rabbitrig_1_:FKXjoint5_R
+      position: {x: -0, y: -8.326672e-18, z: -2.2204459e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS2joint6_R
+      parentName: rabbitrig_1_:FKPS1joint6_R
+      position: {x: -0.039327294, y: -4.9960035e-17, z: -8.8817837e-17}
+      rotation: {x: 0, y: -0.07314764, z: -0, w: 0.9973211}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS1joint5_R
+      parentName: rabbitrig_1_:FKXjoint4_R
+      position: {x: -0, y: -8.326672e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS2joint5_R
+      parentName: rabbitrig_1_:FKPS1joint5_R
+      position: {x: -0.034353185, y: -4.4408918e-17, z: -1.3322676e-16}
+      rotation: {x: 0, y: -0.11207547, z: -0, w: 0.9936997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetEye1_L
+      parentName: rabbitrig_1_:FKXHead_M
+      position: {x: -0.041089665, y: 0.052004013, z: 0.025016738}
+      rotation: {x: 0.23489003, y: 0.20079538, z: -0.6173613, w: 0.7234452}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraEye1_L
+      parentName: rabbitrig_1_:FKOffsetEye1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKEye1_L
+      parentName: rabbitrig_1_:FKExtraEye1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXEye1_L
+      parentName: rabbitrig_1_:FKEye1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetjoint4_L
+      parentName: rabbitrig_1_:FKXHead_M
+      position: {x: -0.06965183, y: -0.0043787947, z: 0.067444645}
+      rotation: {x: 0.9544288, y: -0.04269229, z: 0.2950629, w: -0.0134523455}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtrajoint4_L
+      parentName: rabbitrig_1_:FKOffsetjoint4_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKjoint4_L
+      parentName: rabbitrig_1_:FKExtrajoint4_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXjoint4_L
+      parentName: rabbitrig_1_:FKjoint4_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetjoint5_L
+      parentName: rabbitrig_1_:FKXjoint4_L
+      position: {x: 0.034353185, y: 3.053113e-17, z: 1.5543121e-16}
+      rotation: {x: 0, y: -0.11207547, z: -0, w: 0.9936997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtrajoint5_L
+      parentName: rabbitrig_1_:FKOffsetjoint5_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKjoint5_L
+      parentName: rabbitrig_1_:FKExtrajoint5_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXjoint5_L
+      parentName: rabbitrig_1_:FKjoint5_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetjoint6_L
+      parentName: rabbitrig_1_:FKXjoint5_L
+      position: {x: 0.039327294, y: 3.8857802e-17, z: 4.4408918e-17}
+      rotation: {x: 0, y: -0.07314764, z: -0, w: 0.9973211}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtrajoint6_L
+      parentName: rabbitrig_1_:FKOffsetjoint6_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKjoint6_L
+      parentName: rabbitrig_1_:FKExtrajoint6_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXjoint6_L
+      parentName: rabbitrig_1_:FKjoint6_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS1joint6_L
+      parentName: rabbitrig_1_:FKXjoint5_L
+      position: {x: -2.2204459e-17, y: 5.5511148e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS2joint6_L
+      parentName: rabbitrig_1_:FKPS1joint6_L
+      position: {x: 0.039327294, y: 3.6082247e-17, z: 6.661338e-17}
+      rotation: {x: 0, y: -0.07314764, z: -0, w: 0.9973211}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS1joint5_L
+      parentName: rabbitrig_1_:FKXjoint4_L
+      position: {x: 2.2204459e-17, y: 0, z: 6.661338e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS2joint5_L
+      parentName: rabbitrig_1_:FKPS1joint5_L
+      position: {x: 0.034353185, y: 3.8857802e-17, z: 1.9984014e-16}
+      rotation: {x: 0, y: -0.11207547, z: -0, w: 0.9936997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetShoulder_R
+      parentName: rabbitrig_1_:FKParentConstraintToChest_M
+      position: {x: -0.023296522, y: 0.0163371, z: -0.032247603}
+      rotation: {x: -0.6091284, y: 0.7930716, z: 0.00000024895826, w: -0.00000019121543}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraShoulder_R
+      parentName: rabbitrig_1_:FKOffsetShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKShoulder_R
+      parentName: rabbitrig_1_:FKExtraShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXShoulder_R
+      parentName: rabbitrig_1_:FKShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:AlignIKToShoulder_R
+      parentName: rabbitrig_1_:FKXShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.56649125, y: 0.4231876, z: 0.5664909, w: -0.42318788}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetElbow_R
+      parentName: rabbitrig_1_:FKXShoulder_R
+      position: {x: -0.016033357, y: -7.7715604e-17, z: 2.8842098e-10}
+      rotation: {x: 0, y: -0, z: -0.1791648, w: 0.98381907}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraElbow_R
+      parentName: rabbitrig_1_:FKOffsetElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKElbow_R
+      parentName: rabbitrig_1_:FKExtraElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXElbow_R
+      parentName: rabbitrig_1_:FKElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetFingers3_R
+      parentName: rabbitrig_1_:FKXElbow_R
+      position: {x: -0.01116494, y: -2.8310687e-16, z: 1.8794956e-10}
+      rotation: {x: -0.002780425, y: -0.0013860734, z: -0.32510108, w: 0.9456742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraFingers3_R
+      parentName: rabbitrig_1_:FKOffsetFingers3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKFingers3_R
+      parentName: rabbitrig_1_:FKExtraFingers3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXFingers3_R
+      parentName: rabbitrig_1_:FKFingers3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:AlignIKToFingers3_R
+      parentName: rabbitrig_1_:FKXFingers3_R
+      position: {x: -1.7347234e-19, y: 0, z: -5.5511148e-18}
+      rotation: {x: -0.28622496, y: -0.6441844, z: -0.28776982, w: 0.64829797}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetFingers4_R
+      parentName: rabbitrig_1_:FKXFingers3_R
+      position: {x: -0.024269847, y: 5.5511148e-17, z: -2.7755574e-17}
+      rotation: {x: 0.0014408726, y: 0.004192321, z: -0.13729265, w: 0.9905206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraFingers4_R
+      parentName: rabbitrig_1_:FKOffsetFingers4_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKFingers4_R
+      parentName: rabbitrig_1_:FKExtraFingers4_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXFingers4_R
+      parentName: rabbitrig_1_:FKFingers4_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:AlignIKToFingers4_R
+      parentName: rabbitrig_1_:FKXFingers4_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS1Elbow_R
+      parentName: rabbitrig_1_:FKXShoulder_R
+      position: {x: -0, y: 8.326672e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS2Elbow_R
+      parentName: rabbitrig_1_:FKPS1Elbow_R
+      position: {x: -0.016033357, y: -6.106226e-17, z: 2.8842098e-10}
+      rotation: {x: 0, y: -0, z: -0.1791648, w: 0.98381907}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetShoulder_L
+      parentName: rabbitrig_1_:FKParentConstraintToChest_M
+      position: {x: -0.023296522, y: 0.0163371, z: 0.032247603}
+      rotation: {x: 0.7930716, y: 0.6091284, z: 0.00000018684601, w: 0.00000024326934}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraShoulder_L
+      parentName: rabbitrig_1_:FKOffsetShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKShoulder_L
+      parentName: rabbitrig_1_:FKExtraShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXShoulder_L
+      parentName: rabbitrig_1_:FKShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:AlignIKToShoulder_L
+      parentName: rabbitrig_1_:FKXShoulder_L
+      position: {x: -1.11022296e-17, y: 5.5511148e-18, z: 0}
+      rotation: {x: 0.42318788, y: -0.5664909, z: 0.4231876, w: 0.56649125}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetElbow_L
+      parentName: rabbitrig_1_:FKXShoulder_L
+      position: {x: 0.016033357, y: 8.0491165e-17, z: -2.8842154e-10}
+      rotation: {x: 0, y: -0, z: -0.1791648, w: 0.98381907}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraElbow_L
+      parentName: rabbitrig_1_:FKOffsetElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKElbow_L
+      parentName: rabbitrig_1_:FKExtraElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXElbow_L
+      parentName: rabbitrig_1_:FKElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetFingers3_L
+      parentName: rabbitrig_1_:FKXElbow_L
+      position: {x: 0.01116494, y: 2.9420909e-16, z: -1.879499e-10}
+      rotation: {x: -0.0027804223, y: -0.0013860727, z: -0.32510108, w: 0.9456742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraFingers3_L
+      parentName: rabbitrig_1_:FKOffsetFingers3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKFingers3_L
+      parentName: rabbitrig_1_:FKExtraFingers3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXFingers3_L
+      parentName: rabbitrig_1_:FKFingers3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:AlignIKToFingers3_L
+      parentName: rabbitrig_1_:FKXFingers3_L
+      position: {x: 1.7347234e-19, y: 0, z: -5.5511148e-18}
+      rotation: {x: 0.64829797, y: -0.28776982, z: 0.6441844, w: 0.28622496}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetFingers4_L
+      parentName: rabbitrig_1_:FKXFingers3_L
+      position: {x: 0.024269847, y: -5.5511148e-17, z: -4.052314e-16}
+      rotation: {x: 0.0014408748, y: 0.004192323, z: -0.13729265, w: 0.9905206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraFingers4_L
+      parentName: rabbitrig_1_:FKOffsetFingers4_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKFingers4_L
+      parentName: rabbitrig_1_:FKExtraFingers4_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXFingers4_L
+      parentName: rabbitrig_1_:FKFingers4_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:AlignIKToFingers4_L
+      parentName: rabbitrig_1_:FKXFingers4_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS1Elbow_L
+      parentName: rabbitrig_1_:FKXShoulder_L
+      position: {x: 1.11022296e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS2Elbow_L
+      parentName: rabbitrig_1_:FKPS1Elbow_L
+      position: {x: 0.016033357, y: 8.0491165e-17, z: -2.8842154e-10}
+      rotation: {x: 0, y: -0, z: -0.1791648, w: 0.98381907}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKParentConstraintToRoot_M
+      parentName: rabbitrig_1_:FKSystem
+      position: {x: -1.2172961e-25, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0.7055819, y: -0.046413675, z: -0.7055819, w: 0.046413675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetjoint1_M
+      parentName: rabbitrig_1_:FKParentConstraintToRoot_M
+      position: {x: 0.029444156, y: 0.03322946, z: 1.6859658e-10}
+      rotation: {x: 0, y: 0, z: 0.9264735, w: 0.37636006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtrajoint1_M
+      parentName: rabbitrig_1_:FKOffsetjoint1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKjoint1_M
+      parentName: rabbitrig_1_:FKExtrajoint1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXjoint1_M
+      parentName: rabbitrig_1_:FKjoint1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetjoint2_M
+      parentName: rabbitrig_1_:FKXjoint1_M
+      position: {x: -0.022090469, y: 0, z: -1.9677925e-17}
+      rotation: {x: 0, y: -0, z: -0.087723486, w: 0.9961449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtrajoint2_M
+      parentName: rabbitrig_1_:FKOffsetjoint2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKjoint2_M
+      parentName: rabbitrig_1_:FKExtrajoint2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXjoint2_M
+      parentName: rabbitrig_1_:FKjoint2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS1joint2_M
+      parentName: rabbitrig_1_:FKXjoint1_M
+      position: {x: -1.11022296e-17, y: 0, z: -2.0679514e-26}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS2joint2_M
+      parentName: rabbitrig_1_:FKPS1joint2_M
+      position: {x: -0.022090469, y: 1.6653344e-17, z: -1.9677925e-17}
+      rotation: {x: 0, y: -0, z: -0.087723486, w: 0.9961449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetKnee_R
+      parentName: rabbitrig_1_:FKParentConstraintToRoot_M
+      position: {x: -0.01679678, y: 0.0017829757, z: -0.06450997}
+      rotation: {x: -0.013059411, y: 0.019226886, z: -0.8020432, w: 0.59681374}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraKnee_R
+      parentName: rabbitrig_1_:FKOffsetKnee_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKKnee_R
+      parentName: rabbitrig_1_:FKExtraKnee_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXKnee_R
+      parentName: rabbitrig_1_:FKKnee_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:AlignIKToKnee_R
+      parentName: rabbitrig_1_:FKXKnee_R
+      position: {x: -0, y: 0, z: -1.11022296e-17}
+      rotation: {x: 0.4712867, y: 0.5483136, z: -0.4453667, w: 0.5280999}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetAnkle_R
+      parentName: rabbitrig_1_:FKXKnee_R
+      position: {x: -0.016718311, y: 2.2204459e-17, z: -2.2204459e-17}
+      rotation: {x: 0, y: 0, z: 0.10738544, w: 0.99421746}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraAnkle_R
+      parentName: rabbitrig_1_:FKOffsetAnkle_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKAnkle_R
+      parentName: rabbitrig_1_:FKExtraAnkle_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXAnkle_R
+      parentName: rabbitrig_1_:FKAnkle_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetToes3_R
+      parentName: rabbitrig_1_:FKXAnkle_R
+      position: {x: -0.016609665, y: -3.330669e-17, z: 0}
+      rotation: {x: 0.8042643, y: 0.5937153, z: 0.019295495, w: -0.016992947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraToes3_R
+      parentName: rabbitrig_1_:FKOffsetToes3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKToes3_R
+      parentName: rabbitrig_1_:FKExtraToes3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXToes3_R
+      parentName: rabbitrig_1_:FKToes3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:AlignIKToToes3_R
+      parentName: rabbitrig_1_:FKXToes3_R
+      position: {x: -0, y: -5.5511148e-18, z: 1.11022296e-17}
+      rotation: {x: -0.08666996, y: -0.7036451, z: -0.085305326, w: 0.70006776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetToes5_R
+      parentName: rabbitrig_1_:FKXToes3_R
+      position: {x: -0.0301138, y: 6.106226e-17, z: 1.11022296e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraToes5_R
+      parentName: rabbitrig_1_:FKOffsetToes5_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKToes5_R
+      parentName: rabbitrig_1_:FKExtraToes5_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXToes5_R
+      parentName: rabbitrig_1_:FKToes5_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:AlignIKToToes5_R
+      parentName: rabbitrig_1_:FKXToes5_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS1Ankle_R
+      parentName: rabbitrig_1_:FKXKnee_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS2Ankle_R
+      parentName: rabbitrig_1_:FKPS1Ankle_R
+      position: {x: -0.016718311, y: 1.11022296e-17, z: -3.330669e-17}
+      rotation: {x: 0, y: 0, z: 0.107385434, w: 0.99421746}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetKnee_L
+      parentName: rabbitrig_1_:FKParentConstraintToRoot_M
+      position: {x: -0.01679678, y: 0.0017829757, z: 0.06450997}
+      rotation: {x: -0.01922689, y: -0.013059415, z: 0.59681374, w: 0.80204314}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraKnee_L
+      parentName: rabbitrig_1_:FKOffsetKnee_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKKnee_L
+      parentName: rabbitrig_1_:FKExtraKnee_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXKnee_L
+      parentName: rabbitrig_1_:FKKnee_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:AlignIKToKnee_L
+      parentName: rabbitrig_1_:FKXKnee_L
+      position: {x: 1.11022296e-17, y: 0, z: 0}
+      rotation: {x: -0.5280999, y: 0.4453667, z: 0.5483136, w: 0.4712867}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetAnkle_L
+      parentName: rabbitrig_1_:FKXKnee_L
+      position: {x: 0.016718311, y: 0, z: 1.11022296e-17}
+      rotation: {x: 0, y: 0, z: 0.10738544, w: 0.99421746}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraAnkle_L
+      parentName: rabbitrig_1_:FKOffsetAnkle_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKAnkle_L
+      parentName: rabbitrig_1_:FKExtraAnkle_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXAnkle_L
+      parentName: rabbitrig_1_:FKAnkle_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetToes3_L
+      parentName: rabbitrig_1_:FKXAnkle_L
+      position: {x: 0.016609665, y: 3.8857802e-17, z: 1.11022296e-17}
+      rotation: {x: 0.8042643, y: 0.5937153, z: 0.019295495, w: -0.016992947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraToes3_L
+      parentName: rabbitrig_1_:FKOffsetToes3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKToes3_L
+      parentName: rabbitrig_1_:FKExtraToes3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXToes3_L
+      parentName: rabbitrig_1_:FKToes3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:AlignIKToToes3_L
+      parentName: rabbitrig_1_:FKXToes3_L
+      position: {x: -0, y: -5.5511148e-18, z: 0}
+      rotation: {x: 0.70006776, y: -0.08530533, z: 0.7036451, w: 0.08666997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetToes5_L
+      parentName: rabbitrig_1_:FKXToes3_L
+      position: {x: 0.0301138, y: -7.7715604e-17, z: 1.11022296e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraToes5_L
+      parentName: rabbitrig_1_:FKOffsetToes5_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKToes5_L
+      parentName: rabbitrig_1_:FKExtraToes5_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXToes5_L
+      parentName: rabbitrig_1_:FKToes5_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:AlignIKToToes5_L
+      parentName: rabbitrig_1_:FKXToes5_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS1Ankle_L
+      parentName: rabbitrig_1_:FKXKnee_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS2Ankle_L
+      parentName: rabbitrig_1_:FKPS1Ankle_L
+      position: {x: 0.016718311, y: 1.11022296e-17, z: 0}
+      rotation: {x: 0, y: 0, z: 0.107385434, w: 0.99421746}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetRoot_M
+      parentName: rabbitrig_1_:FKSystem
+      position: {x: -1.7082319e-37, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0.7055819, y: -0.046413675, z: -0.7055819, w: 0.046413675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraRoot_M
+      parentName: rabbitrig_1_:FKOffsetRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKRoot_M
+      parentName: rabbitrig_1_:FKExtraRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXRoot_M
+      parentName: rabbitrig_1_:FKRoot_M
+      position: {x: -0, y: 0, z: -4.1359028e-26}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:AlignIKToRoot_M
+      parentName: rabbitrig_1_:FKXRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7055819, y: -0.0464137, z: -0.7055819, w: -0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetSpine1_M
+      parentName: rabbitrig_1_:FKXRoot_M
+      position: {x: -0.027598996, y: -2.664535e-16, z: 3.278159e-17}
+      rotation: {x: 0, y: 0, z: 0.029434443, w: 0.99956673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:HipSwingerStabilizer
+      parentName: rabbitrig_1_:FKOffsetSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 9.060329e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraSpine1_M
+      parentName: rabbitrig_1_:HipSwingerStabilizer
+      position: {x: -1.3877787e-18, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKSpine1_M
+      parentName: rabbitrig_1_:FKExtraSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXSpine1_M
+      parentName: rabbitrig_1_:FKSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetSpine11_M
+      parentName: rabbitrig_1_:FKXSpine1_M
+      position: {x: -0.024408622, y: 4.4408918e-17, z: 4.678281e-16}
+      rotation: {x: 0, y: 0, z: 0.11586297, w: 0.9932652}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraSpine11_M
+      parentName: rabbitrig_1_:FKOffsetSpine11_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKSpine11_M
+      parentName: rabbitrig_1_:FKExtraSpine11_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXSpine11_M
+      parentName: rabbitrig_1_:FKSpine11_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKOffsetChest_M
+      parentName: rabbitrig_1_:FKXSpine11_M
+      position: {x: -0.023748374, y: -1.11022296e-17, z: 8.386947e-18}
+      rotation: {x: 0, y: -0, z: -0.22272609, w: 0.97488105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKExtraChest_M
+      parentName: rabbitrig_1_:FKOffsetChest_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKChest_M
+      parentName: rabbitrig_1_:FKExtraChest_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKXChest_M
+      parentName: rabbitrig_1_:FKChest_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:AlignIKToChest_M
+      parentName: rabbitrig_1_:FKXChest_M
+      position: {x: 2.7755574e-18, y: 0, z: -8.2718056e-26}
+      rotation: {x: 0.7070437, y: 0.009447608, z: -0.7070437, w: 0.009447608}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS1Chest_M
+      parentName: rabbitrig_1_:FKXSpine11_M
+      position: {x: -0, y: 0, z: -8.2718056e-26}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS2Chest_M
+      parentName: rabbitrig_1_:FKPS1Chest_M
+      position: {x: -0.023748374, y: 0, z: 8.386946e-18}
+      rotation: {x: 0, y: -0, z: -0.22272609, w: 0.97488105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS1Spine11_M
+      parentName: rabbitrig_1_:FKXSpine1_M
+      position: {x: -1.3877787e-18, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS2Spine11_M
+      parentName: rabbitrig_1_:FKPS1Spine11_M
+      position: {x: -0.024408622, y: 4.4408918e-17, z: 4.678281e-16}
+      rotation: {x: 0, y: 0, z: 0.11586297, w: 0.9932652}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS1Spine1_M
+      parentName: rabbitrig_1_:FKXRoot_M
+      position: {x: -0, y: 0, z: -4.1359028e-26}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKPS2Spine1_M
+      parentName: rabbitrig_1_:FKPS1Spine1_M
+      position: {x: -0.027598996, y: -2.7755573e-16, z: 3.278159e-17}
+      rotation: {x: 0, y: 0, z: 0.029434443, w: 0.99956673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:HipSwingerOffset_M
+      parentName: rabbitrig_1_:FKRoot_M
+      position: {x: -0.013799498, y: 9.5609735e-12, z: -0.0126371225}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:HipSwinger_M
+      parentName: rabbitrig_1_:HipSwingerOffset_M
+      position: {x: -0, y: -1.11022296e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:HipSwingerStabilizerTarget
+      parentName: rabbitrig_1_:FKRoot_M
+      position: {x: -0.027598996, y: -2.7755573e-16, z: 3.278159e-17}
+      rotation: {x: 0, y: 0, z: 0.029434444, w: 0.99956673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:HipSwingReverse
+      parentName: rabbitrig_1_:FKRoot_M
+      position: {x: -0.027598996, y: -2.7755573e-16, z: 3.278159e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:HipSwingReverseRoot
+      parentName: rabbitrig_1_:HipSwingReverse
+      position: {x: 0.027598996, y: 2.8865798e-16, z: -3.278159e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSystem
+      parentName: rabbitrig_1_:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKJoints
+      parentName: rabbitrig_1_:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKParentConstraintShoulder_R
+      parentName: rabbitrig_1_:IKJoints
+      position: {x: 4.2156725e-10, y: 0.07862428, z: 0.021402134}
+      rotation: {x: 0.7070437, y: 0.009447523, z: -0.7070437, w: -0.009447523}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXOffsetShoulder_R
+      parentName: rabbitrig_1_:IKParentConstraintShoulder_R
+      position: {x: -0.023296522, y: 0.0163371, z: -0.032247603}
+      rotation: {x: -0.6091284, y: 0.7930716, z: 0.0000002490426, w: -0.00000019128024}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXShoulder_R
+      parentName: rabbitrig_1_:IKXOffsetShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -1.2113398e-16, y: 1.8004335e-17, z: 2.1263061e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Shoulder_R
+      parentName: rabbitrig_1_:IKXShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXElbow_R
+      parentName: rabbitrig_1_:IKXShoulder_R
+      position: {x: -0.016033357, y: -4.7184477e-17, z: 2.768893e-10}
+      rotation: {x: 3.2691198e-15, y: 1.58894e-15, z: -0.17916459, w: 0.9838191}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Elbow_R
+      parentName: rabbitrig_1_:IKXElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXFingers3_R
+      parentName: rabbitrig_1_:IKXElbow_R
+      position: {x: -0.01116494, y: -2.8310687e-16, z: 1.8794956e-10}
+      rotation: {x: -0.0027804258, y: -0.0013860733, z: -0.32510108, w: 0.9456742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Fingers3_R
+      parentName: rabbitrig_1_:IKXFingers3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXFingers4_R
+      parentName: rabbitrig_1_:IKXFingers3_R
+      position: {x: -0.024269847, y: 3.330669e-17, z: -3.8857802e-17}
+      rotation: {x: 0.0014408734, y: 0.004192321, z: -0.13729265, w: 0.9905206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Fingers4_R
+      parentName: rabbitrig_1_:IKXFingers4_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXFingers5_R
+      parentName: rabbitrig_1_:IKXFingers4_R
+      position: {x: -0.03306606, y: 3.053113e-16, z: 4.9960035e-17}
+      rotation: {x: 0.0000007082242, y: 0.0000003267724, z: -2.3142813e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Fingers5_R
+      parentName: rabbitrig_1_:IKXFingers5_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleAnnotationLeg1_R
+      parentName: rabbitrig_1_:IKXElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKMessureFromShoulder_R
+      parentName: rabbitrig_1_:IKParentConstraintShoulder_R
+      position: {x: -0.023296522, y: 0.0163371, z: -0.032247603}
+      rotation: {x: -0.6091284, y: 0.7930716, z: 0.0000002490426, w: -0.00000019128024}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKParentConstraintKnee_R
+      parentName: rabbitrig_1_:IKJoints
+      position: {x: -1.2172961e-25, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0.7055819, y: -0.046413675, z: -0.7055819, w: 0.046413675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXOffsetKnee_R
+      parentName: rabbitrig_1_:IKParentConstraintKnee_R
+      position: {x: -0.01679678, y: 0.0017829757, z: -0.06450997}
+      rotation: {x: -0.013059411, y: 0.019226886, z: -0.8020432, w: 0.59681374}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXKnee_R
+      parentName: rabbitrig_1_:IKXOffsetKnee_R
+      position: {x: -0, y: 0, z: -1.11022296e-17}
+      rotation: {x: -0.000011219586, y: 0.000013350644, z: -0.0007449304, w: 0.99999976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Knee_R
+      parentName: rabbitrig_1_:IKXKnee_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXAnkle_R
+      parentName: rabbitrig_1_:IKXKnee_R
+      position: {x: -0.016718311, y: 5.5511148e-18, z: 0}
+      rotation: {x: 2.9748015e-19, y: 2.7317278e-18, z: 0.108258136, w: 0.9941228}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Ankle_R
+      parentName: rabbitrig_1_:IKXAnkle_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXToes3_R
+      parentName: rabbitrig_1_:IKXAnkle_R
+      position: {x: -0.016609665, y: 0, z: 1.11022296e-17}
+      rotation: {x: 0.8043428, y: 0.59360844, z: 0.019314948, w: -0.016987765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Toes3_R
+      parentName: rabbitrig_1_:IKXToes3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXToes5_R
+      parentName: rabbitrig_1_:IKXToes3_R
+      position: {x: -0.0301138, y: 3.8857802e-17, z: 5.5511148e-17}
+      rotation: {x: 2.220446e-16, y: 5.3563887e-31, z: -3.570926e-31, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Toes5_R
+      parentName: rabbitrig_1_:IKXToes5_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXToes4_R
+      parentName: rabbitrig_1_:IKXToes5_R
+      position: {x: -0.027614016, y: -6.661338e-17, z: 4.4408918e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Toes4_R
+      parentName: rabbitrig_1_:IKXToes4_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleAnnotationLeg2_R
+      parentName: rabbitrig_1_:IKXAnkle_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKMessureFromKnee_R
+      parentName: rabbitrig_1_:IKParentConstraintKnee_R
+      position: {x: -0.01679678, y: 0.0017829757, z: -0.06450997}
+      rotation: {x: -0.013059411, y: 0.019226886, z: -0.8020432, w: 0.59681374}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKParentConstraintRoot_M
+      parentName: rabbitrig_1_:IKJoints
+      position: {x: -1.7080678e-37, y: 0.060655423, z: -0.051587395}
+      rotation: {x: -0.7055819, y: 0.0464137, z: 0.7055819, w: -0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXOffsetRoot_M
+      parentName: rabbitrig_1_:IKParentConstraintRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXRoot_M
+      parentName: rabbitrig_1_:IKXOffsetRoot_M
+      position: {x: 1.11022296e-17, y: -2.2204459e-17, z: 4.1359028e-26}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Root_M
+      parentName: rabbitrig_1_:IKXRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXSpine1_M
+      parentName: rabbitrig_1_:IKXRoot_M
+      position: {x: -0.027598996, y: -2.664535e-16, z: 2.6653382e-17}
+      rotation: {x: 0, y: 0, z: 0.029434443, w: 0.99956673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Spine1_M
+      parentName: rabbitrig_1_:IKXSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXSpine11_M
+      parentName: rabbitrig_1_:IKXSpine1_M
+      position: {x: -0.024408622, y: 8.8817837e-17, z: 4.6245754e-16}
+      rotation: {x: 0, y: 0, z: 0.11586297, w: 0.9932652}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Spine11_M
+      parentName: rabbitrig_1_:IKXSpine11_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXChest_M
+      parentName: rabbitrig_1_:IKXSpine11_M
+      position: {x: -0.023748374, y: 0, z: 3.5248325e-18}
+      rotation: {x: 0, y: -0, z: -0.22272609, w: 0.97488105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Chest_M
+      parentName: rabbitrig_1_:IKXChest_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKfake0Spine_M
+      parentName: rabbitrig_1_:IKParentConstraintRoot_M
+      position: {x: 0.03775681, y: -0.0049889297, z: -2.1996859e-10}
+      rotation: {x: -0.000000010535909, y: 0.0000000027209766, z: 0.012344205, w: 0.9999238}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpSpine1_M
+      parentName: rabbitrig_1_:IKfake0Spine_M
+      position: {x: -0.027598996, y: -2.8865798e-16, z: 3.278159e-17}
+      rotation: {x: 0.0000000103478515, y: 0.0000000035068366, z: 0.009112928, w: 0.9999585}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpSpine11_M
+      parentName: rabbitrig_1_:IKSpSpine1_M
+      position: {x: -0.024366327, y: -0.0014362858, z: 4.8528545e-16}
+      rotation: {x: 0.000000009480543, y: 0.0000000050102, z: -0.0568127, w: 0.99838483}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpChest_M
+      parentName: rabbitrig_1_:IKSpSpine11_M
+      position: {x: -0.02274908, y: -0.006816496, z: 1.2353526e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKfake1Spine_M
+      parentName: rabbitrig_1_:IKSpChest_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKFixedOrientRoot_M
+      parentName: rabbitrig_1_:IKfake0Spine_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.012344205, w: 0.9999238}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKAcRootFollowOffset_M
+      parentName: rabbitrig_1_:IKFixedOrientRoot_M
+      position: {x: 5.5511148e-18, y: -1.11022296e-17, z: 4.1359028e-26}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpRootFollowOffset_M
+      parentName: rabbitrig_1_:IKFixedOrientRoot_M
+      position: {x: 5.5511148e-18, y: -2.2204459e-17, z: 4.1359028e-26}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKNonFixedOrientRoot_M
+      parentName: rabbitrig_1_:IKfake0Spine_M
+      position: {x: -0, y: 0, z: -4.1359028e-26}
+      rotation: {x: 0, y: -0, z: -0.012344205, w: 0.9999238}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKParentConstraintShoulder_L
+      parentName: rabbitrig_1_:IKJoints
+      position: {x: 4.2156725e-10, y: 0.07862428, z: 0.021402134}
+      rotation: {x: 0.7070437, y: 0.009447523, z: -0.7070437, w: -0.009447523}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXOffsetShoulder_L
+      parentName: rabbitrig_1_:IKParentConstraintShoulder_L
+      position: {x: -0.023296522, y: 0.0163371, z: 0.032247603}
+      rotation: {x: 0.7930716, y: 0.6091284, z: 0.00000018678121, w: 0.00000024318499}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXShoulder_L
+      parentName: rabbitrig_1_:IKXOffsetShoulder_L
+      position: {x: -1.11022296e-17, y: 5.5511148e-18, z: 0}
+      rotation: {x: 0.00000001042222, y: -0.0000000015490711, z: -1.9202236e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Shoulder_L
+      parentName: rabbitrig_1_:IKXShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXElbow_L
+      parentName: rabbitrig_1_:IKXShoulder_L
+      position: {x: 0.016033357, y: 9.436895e-17, z: -2.9995378e-10}
+      rotation: {x: 3.4155384e-15, y: 2.3808692e-15, z: -0.17916459, w: 0.9838191}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Elbow_L
+      parentName: rabbitrig_1_:IKXElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXFingers3_L
+      parentName: rabbitrig_1_:IKXElbow_L
+      position: {x: 0.01116494, y: 2.8310687e-16, z: -1.879499e-10}
+      rotation: {x: -0.002780423, y: -0.0013860726, z: -0.32510108, w: 0.9456742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Fingers3_L
+      parentName: rabbitrig_1_:IKXFingers3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXFingers4_L
+      parentName: rabbitrig_1_:IKXFingers3_L
+      position: {x: 0.024269847, y: -5.5511148e-17, z: -4.3298696e-16}
+      rotation: {x: 0.0014408753, y: 0.004192323, z: -0.13729265, w: 0.9905206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Fingers4_L
+      parentName: rabbitrig_1_:IKXFingers4_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXFingers5_L
+      parentName: rabbitrig_1_:IKXFingers4_L
+      position: {x: 0.03306606, y: -5.495604e-16, z: -2.553513e-16}
+      rotation: {x: 0.0000007100458, y: 0.00000032897532, z: -2.3358756e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Fingers5_L
+      parentName: rabbitrig_1_:IKXFingers5_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleAnnotationLeg1_L
+      parentName: rabbitrig_1_:IKXElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKMessureFromShoulder_L
+      parentName: rabbitrig_1_:IKParentConstraintShoulder_L
+      position: {x: -0.023296522, y: 0.0163371, z: 0.032247603}
+      rotation: {x: 0.7930716, y: 0.6091284, z: 0.00000018678121, w: 0.00000024318499}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKParentConstraintKnee_L
+      parentName: rabbitrig_1_:IKJoints
+      position: {x: -1.2172961e-25, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0.7055819, y: -0.046413675, z: -0.7055819, w: 0.046413675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXOffsetKnee_L
+      parentName: rabbitrig_1_:IKParentConstraintKnee_L
+      position: {x: -0.01679678, y: 0.0017829757, z: 0.06450997}
+      rotation: {x: -0.01922689, y: -0.013059415, z: 0.59681374, w: 0.80204314}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXKnee_L
+      parentName: rabbitrig_1_:IKXOffsetKnee_L
+      position: {x: 1.11022296e-17, y: 0, z: 0}
+      rotation: {x: -0.0000112148255, y: 0.000013349027, z: -0.00074493635, w: 0.99999976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Knee_L
+      parentName: rabbitrig_1_:IKXKnee_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXAnkle_L
+      parentName: rabbitrig_1_:IKXKnee_L
+      position: {x: 0.016718311, y: -5.5511148e-18, z: 0}
+      rotation: {x: -5.949529e-19, y: -5.4633886e-18, z: 0.10825813, w: 0.9941228}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Ankle_L
+      parentName: rabbitrig_1_:IKXAnkle_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXToes3_L
+      parentName: rabbitrig_1_:IKXAnkle_L
+      position: {x: 0.016609665, y: 1.1657341e-16, z: 2.2204459e-17}
+      rotation: {x: 0.8043428, y: 0.59360856, z: 0.019314948, w: -0.016987767}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Toes3_L
+      parentName: rabbitrig_1_:IKXToes3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXToes5_L
+      parentName: rabbitrig_1_:IKXToes3_L
+      position: {x: 0.0301138, y: -2.747802e-16, z: 0}
+      rotation: {x: 3.5197534e-10, y: -2.3349458e-24, z: 4.245356e-25, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Toes5_L
+      parentName: rabbitrig_1_:IKXToes5_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKXToes4_L
+      parentName: rabbitrig_1_:IKXToes5_L
+      position: {x: 0.027614016, y: -1.8318678e-16, z: 3.330669e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKX2Toes4_L
+      parentName: rabbitrig_1_:IKXToes4_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleAnnotationLeg2_L
+      parentName: rabbitrig_1_:IKXAnkle_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKMessureFromKnee_L
+      parentName: rabbitrig_1_:IKParentConstraintKnee_L
+      position: {x: -0.01679678, y: 0.0017829757, z: 0.06450997}
+      rotation: {x: -0.01922689, y: -0.013059415, z: 0.59681374, w: 0.80204314}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpSpineOffset_M
+      parentName: rabbitrig_1_:IKJoints
+      position: {x: -1.7080678e-37, y: 0.060655423, z: -0.051587395}
+      rotation: {x: -0.7055819, y: 0.0464137, z: 0.7055819, w: -0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpRoot_M
+      parentName: rabbitrig_1_:IKSpSpineOffset_M
+      position: {x: 5.5511148e-18, y: -1.11022296e-17, z: 4.1359028e-26}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpSpine1FollowOffset_M
+      parentName: rabbitrig_1_:IKSpSpineOffset_M
+      position: {x: -0.027598996, y: -2.553513e-16, z: 5.116622e-17}
+      rotation: {x: 0, y: 0, z: 0.029434443, w: 0.99956673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpSpine11FollowOffset_M
+      parentName: rabbitrig_1_:IKSpSpineOffset_M
+      position: {x: -0.051965322, y: -0.0014362858, z: 5.3510597e-16}
+      rotation: {x: 0, y: 0, z: 0.14504899, w: 0.9894245}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpChestFollowOffset_M
+      parentName: rabbitrig_1_:IKSpSpineOffset_M
+      position: {x: -0.07471441, y: -0.008252782, z: 5.5807925e-16}
+      rotation: {x: 0, y: -0, z: -0.078965135, w: 0.9968774}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKAcSpineOffset_M
+      parentName: rabbitrig_1_:IKJoints
+      position: {x: -1.7080678e-37, y: 0.060655423, z: -0.051587395}
+      rotation: {x: -0.7055819, y: 0.0464137, z: 0.7055819, w: -0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKAcRoot_M
+      parentName: rabbitrig_1_:IKAcSpineOffset_M
+      position: {x: -0, y: 0, z: -4.1359028e-26}
+      rotation: {x: 1.4820216e-19, y: 0.000000002851044, z: 0.012344205, w: 0.9999238}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKAcSpine1_M
+      parentName: rabbitrig_1_:IKAcSpineOffset_M
+      position: {x: -0.027590586, y: -0.0006813234, z: 1.5735992e-10}
+      rotation: {x: -1.806292e-18, y: 0.0000000027993559, z: 0.050874297, w: 0.9987051}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKAcSpine11_M
+      parentName: rabbitrig_1_:IKAcSpineOffset_M
+      position: {x: -0.051872857, y: -0.0031616504, z: 2.9383979e-10}
+      rotation: {x: 1.3675229e-17, y: 0.0000000026899076, z: 0.10943258, w: 0.99399424}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKAcChest_M
+      parentName: rabbitrig_1_:IKAcSpineOffset_M
+      position: {x: -0.07471441, y: -0.008252782, z: 4.1898238e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKAcSpineOffset3_M
+      parentName: rabbitrig_1_:IKJoints
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKAcPociXformRoot_M
+      parentName: rabbitrig_1_:IKAcSpineOffset3_M
+      position: {x: 6.640589e-32, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKAcPociXformSpine1_M
+      parentName: rabbitrig_1_:IKAcSpineOffset3_M
+      position: {x: 1.07177566e-13, y: 0.064945094, z: -0.024323802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKAcPociXformSpine11_M
+      parentName: rabbitrig_1_:IKAcSpineOffset3_M
+      position: {x: 7.900372e-13, y: 0.07058489, z: -0.00057567726}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKAcPociXformChest_M
+      parentName: rabbitrig_1_:IKAcSpineOffset3_M
+      position: {x: 2.5853308e-12, y: 0.07862428, z: 0.021402134}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKAcSpineOffset2_M
+      parentName: rabbitrig_1_:IKJoints
+      position: {x: -1.7080678e-37, y: 0.060655423, z: -0.051587395}
+      rotation: {x: -0.7055819, y: 0.0464137, z: 0.7055819, w: -0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKAcSpine1FollowOffset_M
+      parentName: rabbitrig_1_:IKAcSpineOffset2_M
+      position: {x: -0.027598996, y: -2.553513e-16, z: 5.116622e-17}
+      rotation: {x: 0, y: 0, z: 0.029434443, w: 0.99956673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKAcSpine11FollowOffset_M
+      parentName: rabbitrig_1_:IKAcSpineOffset2_M
+      position: {x: -0.051965322, y: -0.0014362858, z: 5.358235e-16}
+      rotation: {x: 0, y: 0, z: 0.14504899, w: 0.9894245}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKAcChestFollowOffset_M
+      parentName: rabbitrig_1_:IKAcSpineOffset2_M
+      position: {x: -0.07471441, y: -0.008252782, z: 5.6220234e-16}
+      rotation: {x: 0, y: -0, z: -0.078965135, w: 0.9968774}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKHandle
+      parentName: rabbitrig_1_:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKHandleFollowMain
+      parentName: rabbitrig_1_:IKHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKOffsetLeg1_R
+      parentName: rabbitrig_1_:IKHandleFollowMain
+      position: {x: 0.0322476, y: 0.035160232, z: 0.04051671}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKExtraLeg1_R
+      parentName: rabbitrig_1_:IKOffsetLeg1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg1_R
+      parentName: rabbitrig_1_:IKExtraLeg1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKFKAlignedOffsetLeg1_R
+      parentName: rabbitrig_1_:IKLeg1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.28622496, y: 0.6441844, z: 0.28776982, w: 0.64829797}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg1FootRockInnerPivot_R
+      parentName: rabbitrig_1_:IKLeg1_R
+      position: {x: -0.020603558, y: -0.035160232, z: 0.002380761}
+      rotation: {x: 0, y: -0.0033034715, z: -0, w: 0.9999946}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg1FootRockOuterPivot_R
+      parentName: rabbitrig_1_:IKLeg1FootRockInnerPivot_R
+      position: {x: 0.043726917, y: 0, z: -0.00028890587}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKFKAlignedLeg1_R
+      parentName: rabbitrig_1_:IKLeg1FootRockOuterPivot_R
+      position: {x: -0.023139535, y: 0.035160232, z: -0.002227929}
+      rotation: {x: 0.28717405, y: 0.64632255, z: 0.2868227, w: 0.6461664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg1FootRoll_R
+      parentName: rabbitrig_1_:IKLeg1FootRockOuterPivot_R
+      position: {x: -0.023139535, y: 0.035160232, z: -0.002227929}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollOffsetfrontHeel_R
+      parentName: rabbitrig_1_:IKLeg1FootRockOuterPivot_R
+      position: {x: -0.023257995, y: 0.000021964554, z: -0.020152947}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollRollerfrontHeel_R
+      parentName: rabbitrig_1_:RollOffsetfrontHeel_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollExtrafrontHeel_R
+      parentName: rabbitrig_1_:RollRollerfrontHeel_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollfrontHeel_R
+      parentName: rabbitrig_1_:RollExtrafrontHeel_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollOffsetFingers5_R
+      parentName: rabbitrig_1_:RollfrontHeel_R
+      position: {x: 0.00041106215, y: -0.00044276135, z: 0.062205352}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollRollerFingers5_R
+      parentName: rabbitrig_1_:RollOffsetFingers5_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollExtraFingers5_R
+      parentName: rabbitrig_1_:RollRollerFingers5_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollFingers5_R
+      parentName: rabbitrig_1_:RollExtraFingers5_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollOffsetFingers4_R
+      parentName: rabbitrig_1_:RollFingers5_R
+      position: {x: -0.0002925972, y: 0.017575605, z: -0.02800673}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollRollerFingers4_R
+      parentName: rabbitrig_1_:RollOffsetFingers4_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollExtraFingers4_R
+      parentName: rabbitrig_1_:RollRollerFingers4_R
+      position: {x: -0, y: -2.7755574e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollFingers4_R
+      parentName: rabbitrig_1_:RollExtraFingers4_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKFingers3Handle_R
+      parentName: rabbitrig_1_:RollFingers4_R
+      position: {x: -2.949142e-11, y: -2.4181516e-11, z: 1.7291722e-13}
+      rotation: {x: 0.28717405, y: 0.64632255, z: 0.2868227, w: 0.6461664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg1Handle_R
+      parentName: rabbitrig_1_:RollFingers4_R
+      position: {x: -0.000000004775068, y: 0.018005423, z: -0.016273605}
+      rotation: {x: 0, y: 0.0033034715, z: -0, w: 0.9999946}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKmessureConstrainToLeg1_R
+      parentName: rabbitrig_1_:RollFingers4_R
+      position: {x: -0.000000004775068, y: 0.018005423, z: -0.016273605}
+      rotation: {x: 0, y: 0.0033034715, z: -0, w: 0.9999946}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKOffsetFingers4_R
+      parentName: rabbitrig_1_:RollFingers5_R
+      position: {x: -0.0002925972, y: 0.017575605, z: -0.02800673}
+      rotation: {x: 0.19544506, y: 0.6827449, z: 0.19566257, w: 0.67629635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKExtraFingers4_R
+      parentName: rabbitrig_1_:IKOffsetFingers4_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKFingers4_R
+      parentName: rabbitrig_1_:IKExtraFingers4_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKFingers4Handle_R
+      parentName: rabbitrig_1_:IKFingers4_R
+      position: {x: -0.03306606, y: -2.0441553e-11, z: -3.6334494e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg1_R
+      parentName: rabbitrig_1_:IKHandleFollowMain
+      position: {x: 0.032247618, y: 0.04895984, z: 0.0150093855}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleExtraLeg1_R
+      parentName: rabbitrig_1_:PoleOffsetLeg1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleLeg1_R
+      parentName: rabbitrig_1_:PoleExtraLeg1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleLocLeg1_R
+      parentName: rabbitrig_1_:PoleLeg1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleAimLeg1_R
+      parentName: rabbitrig_1_:IKHandleFollowMain
+      position: {x: 4.2156725e-10, y: 0.07862428, z: 0.021402134}
+      rotation: {x: 0.25450417, y: 0.73840874, z: 0.48545894, w: 0.39282277}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKcvOffsetSpine1_M
+      parentName: rabbitrig_1_:IKHandleFollowMain
+      position: {x: -2.8710224e-16, y: 0.06427074, z: -0.024226213}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKcvExtraSpine1_M
+      parentName: rabbitrig_1_:IKcvOffsetSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKcvSpine1_M
+      parentName: rabbitrig_1_:IKcvExtraSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpineLocator1_M
+      parentName: rabbitrig_1_:IKcvSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKcvOffsetSpine2_M
+      parentName: rabbitrig_1_:IKHandleFollowMain
+      position: {x: -9.842378e-16, y: 0.06888651, z: -0.00025799434}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKcvExtraSpine2_M
+      parentName: rabbitrig_1_:IKcvOffsetSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKcvSpine2_M
+      parentName: rabbitrig_1_:IKcvExtraSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpineLocator2_M
+      parentName: rabbitrig_1_:IKcvSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKOffsetSpine2_M
+      parentName: rabbitrig_1_:IKHandleFollowMain
+      position: {x: -5.989481e-16, y: 0.067008115, z: -0.014415558}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKExtraSpine2_M
+      parentName: rabbitrig_1_:IKOffsetSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpine2_M
+      parentName: rabbitrig_1_:IKExtraSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpine2X_M
+      parentName: rabbitrig_1_:IKSpine2_M
+      position: {x: 7.8886086e-32, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpine2LocalOrient0_M
+      parentName: rabbitrig_1_:IKSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.70271236, y: 0.07871049, z: 0.70271236, w: -0.0787105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpine2LocalOrient1_M
+      parentName: rabbitrig_1_:IKSpine2_M
+      position: {x: -8.275782e-27, y: 0, z: 0}
+      rotation: {x: -0.7055819, y: 0.0464137, z: 0.7055819, w: -0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpine2LocalOrient2_M
+      parentName: rabbitrig_1_:IKSpine2LocalOrient1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpine2LocalOrient3_M
+      parentName: rabbitrig_1_:IKOffsetSpine2_M
+      position: {x: -8.2757025e-27, y: 0, z: 0}
+      rotation: {x: -0.7055819, y: 0.0464137, z: 0.7055819, w: -0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKOffsetConstrainedSpine1_M
+      parentName: rabbitrig_1_:IKHandleFollowMain
+      position: {x: -1.7082319e-37, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKhybridOffsetSpine1_M
+      parentName: rabbitrig_1_:IKOffsetConstrainedSpine1_M
+      position: {x: 1.0538688e-31, y: 1.11022296e-17, z: 0}
+      rotation: {x: 0.7055819, y: -0.0464137, z: -0.7055819, w: 0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKOffsetSpine1_M
+      parentName: rabbitrig_1_:IKhybridOffsetSpine1_M
+      position: {x: 5.5511148e-18, y: 1.11022296e-17, z: 7.8886086e-32}
+      rotation: {x: 0.7055819, y: -0.0464137, z: -0.7055819, w: -0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKExtraSpine1_M
+      parentName: rabbitrig_1_:IKOffsetSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpine1_M
+      parentName: rabbitrig_1_:IKExtraSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpine1X_M
+      parentName: rabbitrig_1_:IKSpine1_M
+      position: {x: -9.860761e-33, y: 0, z: -1.11022296e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpine1LocalOrient0_M
+      parentName: rabbitrig_1_:IKSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7055819, y: 0.0464137, z: 0.7055819, w: -0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpineLocator0_M
+      parentName: rabbitrig_1_:IKSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpine1LocalOrient1_M
+      parentName: rabbitrig_1_:IKSpine1_M
+      position: {x: 4.1359028e-26, y: 0, z: 0}
+      rotation: {x: -0.7055819, y: 0.0464137, z: 0.7055819, w: -0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpine1LocalOrient2_M
+      parentName: rabbitrig_1_:IKSpine1LocalOrient1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpine1LocalOrient3_M
+      parentName: rabbitrig_1_:IKSpine1LocalOrient2_M
+      position: {x: -0, y: 0, z: 4.1359028e-26}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKhybridFollowSpine1_M
+      parentName: rabbitrig_1_:IKhybridOffsetSpine1_M
+      position: {x: -0, y: -1.11022296e-17, z: -1.5777217e-31}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKhybridExtraSpine1_M
+      parentName: rabbitrig_1_:IKhybridFollowSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKhybridSpine1_M
+      parentName: rabbitrig_1_:IKhybridExtraSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKhybridOffsetSpine2_M
+      parentName: rabbitrig_1_:IKhybridSpine1_M
+      position: {x: -0.037683696, y: -0.0014286429, z: 2.3262365e-16}
+      rotation: {x: 0, y: 0, z: 0.04584244, w: 0.9989487}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKhybridExtraSpine2_M
+      parentName: rabbitrig_1_:IKhybridOffsetSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKhybridSpine2_M
+      parentName: rabbitrig_1_:IKhybridExtraSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKhybridOffsetSpine3_M
+      parentName: rabbitrig_1_:IKhybridSpine2_M
+      position: {x: -0.03750008, y: -0.0034038702, z: -4.2415474e-10}
+      rotation: {x: 0, y: 0, z: 0.099538855, w: 0.9950337}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKhybridExtraSpine3_M
+      parentName: rabbitrig_1_:IKhybridOffsetSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKhybridSpine3_M
+      parentName: rabbitrig_1_:IKhybridExtraSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKOffsetSpine3_M
+      parentName: rabbitrig_1_:IKhybridSpine3_M
+      position: {x: -0, y: 1.11022296e-17, z: 8.2718056e-26}
+      rotation: {x: 0.6913877, y: -0.14826678, z: -0.6913877, w: -0.14826678}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKExtraSpine3_M
+      parentName: rabbitrig_1_:IKOffsetSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpine3_M
+      parentName: rabbitrig_1_:IKExtraSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpine3X_M
+      parentName: rabbitrig_1_:IKSpine3_M
+      position: {x: 2.0679514e-26, y: 0, z: 2.7755574e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpine3LocalOrient0_M
+      parentName: rabbitrig_1_:IKSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.6913877, y: 0.14826678, z: 0.6913877, w: -0.14826678}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpineLocator3_M
+      parentName: rabbitrig_1_:IKSpine3_M
+      position: {x: -4.2156845e-10, y: -6.496195e-11, z: 4.036668e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpine3LocalOrient1_M
+      parentName: rabbitrig_1_:IKSpine3_M
+      position: {x: -0, y: -1.11022296e-17, z: 2.7755574e-18}
+      rotation: {x: -0.7070437, y: -0.009447608, z: 0.7070437, w: 0.009447608}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpine3LocalOrient2_M
+      parentName: rabbitrig_1_:IKSpine3LocalOrient1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpine3LocalStartOrient_M
+      parentName: rabbitrig_1_:IKSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7055819, y: 0.046413697, z: 0.7055819, w: -0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKFollowEndSpine_M
+      parentName: rabbitrig_1_:IKHandleFollowMain
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKFollowEndSpine1_M
+      parentName: rabbitrig_1_:IKFollowEndSpine_M
+      position: {x: 5.5022287e-32, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKFollowEndSpine3_M
+      parentName: rabbitrig_1_:IKFollowEndSpine_M
+      position: {x: 4.2415374e-10, y: 0.07862428, z: 0.021402134}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKOffsetLeg2_R
+      parentName: rabbitrig_1_:IKHandleFollowMain
+      position: {x: 0.06427937, y: 0.027999984, z: -0.03645355}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKExtraLeg2_R
+      parentName: rabbitrig_1_:IKOffsetLeg2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg2_R
+      parentName: rabbitrig_1_:IKExtraLeg2_R
+      position: {x: -0, y: 0.000004228681, z: -0.00002020184}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKFKAlignedOffsetLeg2_R
+      parentName: rabbitrig_1_:IKLeg2_R
+      position: {x: -0, y: 5.5511148e-18, z: 5.5511148e-18}
+      rotation: {x: 0.08666996, y: 0.7036451, z: 0.085305326, w: 0.70006776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg2FootRockInnerPivot_R
+      parentName: rabbitrig_1_:IKLeg2_R
+      position: {x: -0.019706698, y: -0.027999984, z: 0.030591594}
+      rotation: {x: 0, y: 0.00246638, z: -0, w: 0.99999696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg2FootRockOuterPivot_R
+      parentName: rabbitrig_1_:IKLeg2FootRockInnerPivot_R
+      position: {x: 0.036277045, y: 0, z: -0.00033065627}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKFKAlignedLeg2_R
+      parentName: rabbitrig_1_:IKLeg2FootRockOuterPivot_R
+      position: {x: -0.016419685, y: 0.027999984, z: -0.030163357}
+      rotation: {x: 0.0864593, y: 0.70191634, z: 0.08551883, w: 0.7018011}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg2FootRoll_R
+      parentName: rabbitrig_1_:IKLeg2FootRockOuterPivot_R
+      position: {x: -0.016419685, y: 0.027999984, z: -0.030163357}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollOffsetbackHeel_R
+      parentName: rabbitrig_1_:IKLeg2FootRockOuterPivot_R
+      position: {x: -0.016297434, y: 0.007470556, z: -0.054946717}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollRollerbackHeel_R
+      parentName: rabbitrig_1_:RollOffsetbackHeel_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollExtrabackHeel_R
+      parentName: rabbitrig_1_:RollRollerbackHeel_R
+      position: {x: -0, y: 1.3877787e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollbackHeel_R
+      parentName: rabbitrig_1_:RollExtrabackHeel_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollOffsetToes4_R
+      parentName: rabbitrig_1_:RollbackHeel_R
+      position: {x: -0.00012225064, y: 0.006593424, z: 0.08080379}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollRollerToes4_R
+      parentName: rabbitrig_1_:RollOffsetToes4_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollExtraToes4_R
+      parentName: rabbitrig_1_:RollRollerToes4_R
+      position: {x: -0, y: -2.7755574e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollToes4_R
+      parentName: rabbitrig_1_:RollExtraToes4_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollOffsetToes5_R
+      parentName: rabbitrig_1_:RollToes4_R
+      position: {x: -1.9766491e-10, y: 0.0066662673, z: -0.02679729}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollRollerToes5_R
+      parentName: rabbitrig_1_:RollOffsetToes5_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollExtraToes5_R
+      parentName: rabbitrig_1_:RollRollerToes5_R
+      position: {x: -0, y: 2.7755574e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollToes5_R
+      parentName: rabbitrig_1_:RollExtraToes5_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKToes3Handle_R
+      parentName: rabbitrig_1_:RollToes5_R
+      position: {x: 2.2204459e-17, y: -4.4408918e-17, z: 1.3877787e-18}
+      rotation: {x: 0.0864593, y: 0.70191634, z: 0.08551883, w: 0.7018011}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg2Handle_R
+      parentName: rabbitrig_1_:RollToes5_R
+      position: {x: -2.072096e-10, y: 0.007269736, z: -0.029223137}
+      rotation: {x: 0, y: -0.0024663797, z: -0, w: 0.99999696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKmessureConstrainToLeg2_R
+      parentName: rabbitrig_1_:RollToes5_R
+      position: {x: -2.0720957e-10, y: 0.007269736, z: -0.029223137}
+      rotation: {x: 0, y: -0.0024663797, z: -0, w: 0.99999696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKOffsetToes5_R
+      parentName: rabbitrig_1_:RollToes4_R
+      position: {x: -1.976649e-10, y: 0.0066662673, z: -0.02679729}
+      rotation: {x: 0.0864593, y: 0.70191634, z: 0.08551883, w: 0.7018011}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKExtraToes5_R
+      parentName: rabbitrig_1_:IKOffsetToes5_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKToes5_R
+      parentName: rabbitrig_1_:IKExtraToes5_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKToes5Handle_R
+      parentName: rabbitrig_1_:IKToes5_R
+      position: {x: -0.027614016, y: -1.125433e-13, z: -7.655798e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg2_R
+      parentName: rabbitrig_1_:IKHandleFollowMain
+      position: {x: 0.065926395, y: 0.04624444, z: -0.068838656}
+      rotation: {x: 0.00022833166, y: 0.00003153414, z: 0.000065852626, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleExtraLeg2_R
+      parentName: rabbitrig_1_:PoleOffsetLeg2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleLeg2_R
+      parentName: rabbitrig_1_:PoleExtraLeg2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleLocLeg2_R
+      parentName: rabbitrig_1_:PoleLeg2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleAimLeg2_R
+      parentName: rabbitrig_1_:IKHandleFollowMain
+      position: {x: -1.2172961e-25, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0.13705908, y: 0.8181734, z: 0.5166182, w: 0.21192628}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKOffsetLeg1_L
+      parentName: rabbitrig_1_:IKHandleFollowMain
+      position: {x: -0.0322476, y: 0.035160232, z: 0.040516715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKExtraLeg1_L
+      parentName: rabbitrig_1_:IKOffsetLeg1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg1_L
+      parentName: rabbitrig_1_:IKExtraLeg1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKFKAlignedOffsetLeg1_L
+      parentName: rabbitrig_1_:IKLeg1_L
+      position: {x: -5.5511148e-18, y: 0, z: 0}
+      rotation: {x: 0.64829797, y: -0.28776982, z: 0.6441844, w: -0.28622496}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg1FootRockInnerPivot_L
+      parentName: rabbitrig_1_:IKLeg1_L
+      position: {x: 0.020603558, y: -0.035160232, z: 0.0023807606}
+      rotation: {x: 0, y: 0.0033034715, z: -0, w: 0.9999946}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg1FootRockOuterPivot_L
+      parentName: rabbitrig_1_:IKLeg1FootRockInnerPivot_L
+      position: {x: -0.043726917, y: 0, z: -0.00028890587}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKFKAlignedLeg1_L
+      parentName: rabbitrig_1_:IKLeg1FootRockOuterPivot_L
+      position: {x: 0.023139535, y: 0.035160232, z: -0.0022279285}
+      rotation: {x: 0.6461664, y: -0.2868227, z: 0.64632255, w: -0.28717405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg1FootRoll_L
+      parentName: rabbitrig_1_:IKLeg1FootRockOuterPivot_L
+      position: {x: 0.023139535, y: 0.035160232, z: -0.0022279285}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollOffsetfrontHeel_L
+      parentName: rabbitrig_1_:IKLeg1FootRockOuterPivot_L
+      position: {x: 0.023257997, y: 0.000021964615, z: -0.020152947}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollRollerfrontHeel_L
+      parentName: rabbitrig_1_:RollOffsetfrontHeel_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollExtrafrontHeel_L
+      parentName: rabbitrig_1_:RollRollerfrontHeel_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollfrontHeel_L
+      parentName: rabbitrig_1_:RollExtrafrontHeel_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollOffsetFingers5_L
+      parentName: rabbitrig_1_:RollfrontHeel_L
+      position: {x: -0.00041106276, y: -0.00044276152, z: 0.062205352}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollRollerFingers5_L
+      parentName: rabbitrig_1_:RollOffsetFingers5_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollExtraFingers5_L
+      parentName: rabbitrig_1_:RollRollerFingers5_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollFingers5_L
+      parentName: rabbitrig_1_:RollExtraFingers5_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollOffsetFingers4_L
+      parentName: rabbitrig_1_:RollFingers5_L
+      position: {x: 0.00029259763, y: 0.017575605, z: -0.02800673}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollRollerFingers4_L
+      parentName: rabbitrig_1_:RollOffsetFingers4_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollExtraFingers4_L
+      parentName: rabbitrig_1_:RollRollerFingers4_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollFingers4_L
+      parentName: rabbitrig_1_:RollExtraFingers4_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKFingers3Handle_L
+      parentName: rabbitrig_1_:RollFingers4_L
+      position: {x: -2.9491947e-11, y: 2.4181459e-11, z: -1.7290612e-13}
+      rotation: {x: 0.6461664, y: -0.2868227, z: 0.64632255, w: -0.28717405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg1Handle_L
+      parentName: rabbitrig_1_:RollFingers4_L
+      position: {x: 0.0000000049125903, y: 0.018005423, z: -0.016273605}
+      rotation: {x: 0, y: -0.0033034715, z: -0, w: 0.9999946}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKmessureConstrainToLeg1_L
+      parentName: rabbitrig_1_:RollFingers4_L
+      position: {x: 0.0000000049125903, y: 0.018005423, z: -0.016273605}
+      rotation: {x: 0, y: -0.0033034715, z: -0, w: 0.9999946}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKOffsetFingers4_L
+      parentName: rabbitrig_1_:RollFingers5_L
+      position: {x: 0.00029259763, y: 0.017575605, z: -0.02800673}
+      rotation: {x: 0.67629635, y: -0.19566257, z: 0.6827449, w: -0.19544506}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKExtraFingers4_L
+      parentName: rabbitrig_1_:IKOffsetFingers4_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKFingers4_L
+      parentName: rabbitrig_1_:IKExtraFingers4_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKFingers4Handle_L
+      parentName: rabbitrig_1_:IKFingers4_L
+      position: {x: 0.03306606, y: -2.0441374e-11, z: -3.6335476e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg1_L
+      parentName: rabbitrig_1_:IKHandleFollowMain
+      position: {x: -0.032247618, y: 0.04895984, z: 0.015009387}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleExtraLeg1_L
+      parentName: rabbitrig_1_:PoleOffsetLeg1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleLeg1_L
+      parentName: rabbitrig_1_:PoleExtraLeg1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleLocLeg1_L
+      parentName: rabbitrig_1_:PoleLeg1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleAimLeg1_L
+      parentName: rabbitrig_1_:IKHandleFollowMain
+      position: {x: 4.2156725e-10, y: 0.07862428, z: 0.021402134}
+      rotation: {x: 0.3928228, y: -0.485459, z: 0.73840874, w: -0.25450414}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKOffsetLeg2_L
+      parentName: rabbitrig_1_:IKHandleFollowMain
+      position: {x: -0.06427937, y: 0.027999984, z: -0.03645355}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKExtraLeg2_L
+      parentName: rabbitrig_1_:IKOffsetLeg2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg2_L
+      parentName: rabbitrig_1_:IKExtraLeg2_L
+      position: {x: -0, y: 0.000004228681, z: -0.00002020184}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKFKAlignedOffsetLeg2_L
+      parentName: rabbitrig_1_:IKLeg2_L
+      position: {x: 1.11022296e-17, y: 5.5511148e-18, z: -5.5511148e-18}
+      rotation: {x: 0.70006776, y: -0.08530533, z: 0.7036451, w: -0.08666997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg2FootRockInnerPivot_L
+      parentName: rabbitrig_1_:IKLeg2_L
+      position: {x: 0.019706698, y: -0.027999984, z: 0.030591594}
+      rotation: {x: 0, y: -0.00246638, z: -0, w: 0.99999696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg2FootRockOuterPivot_L
+      parentName: rabbitrig_1_:IKLeg2FootRockInnerPivot_L
+      position: {x: -0.036277045, y: 0, z: -0.00033065627}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKFKAlignedLeg2_L
+      parentName: rabbitrig_1_:IKLeg2FootRockOuterPivot_L
+      position: {x: 0.016419685, y: 0.027999984, z: -0.030163357}
+      rotation: {x: 0.7018011, y: -0.08551884, z: 0.70191634, w: -0.08645931}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg2FootRoll_L
+      parentName: rabbitrig_1_:IKLeg2FootRockOuterPivot_L
+      position: {x: 0.016419685, y: 0.027999984, z: -0.030163357}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollOffsetbackHeel_L
+      parentName: rabbitrig_1_:IKLeg2FootRockOuterPivot_L
+      position: {x: 0.016297434, y: 0.0074705565, z: -0.054946717}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollRollerbackHeel_L
+      parentName: rabbitrig_1_:RollOffsetbackHeel_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollExtrabackHeel_L
+      parentName: rabbitrig_1_:RollRollerbackHeel_L
+      position: {x: -0, y: 1.3877787e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollbackHeel_L
+      parentName: rabbitrig_1_:RollExtrabackHeel_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollOffsetToes4_L
+      parentName: rabbitrig_1_:RollbackHeel_L
+      position: {x: 0.00012225172, y: 0.006593422, z: 0.08080379}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollRollerToes4_L
+      parentName: rabbitrig_1_:RollOffsetToes4_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollExtraToes4_L
+      parentName: rabbitrig_1_:RollRollerToes4_L
+      position: {x: -0, y: -2.7755574e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollToes4_L
+      parentName: rabbitrig_1_:RollExtraToes4_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollOffsetToes5_L
+      parentName: rabbitrig_1_:RollToes4_L
+      position: {x: -1.5866242e-10, y: 0.0066662673, z: -0.02679729}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollRollerToes5_L
+      parentName: rabbitrig_1_:RollOffsetToes5_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollExtraToes5_L
+      parentName: rabbitrig_1_:RollRollerToes5_L
+      position: {x: -0, y: -2.7755574e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RollToes5_L
+      parentName: rabbitrig_1_:RollExtraToes5_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKToes3Handle_L
+      parentName: rabbitrig_1_:RollToes5_L
+      position: {x: -4.4408918e-17, y: -5.5511148e-18, z: 0}
+      rotation: {x: 0.7018011, y: -0.08551884, z: 0.70191634, w: -0.08645931}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKLeg2Handle_L
+      parentName: rabbitrig_1_:RollToes5_L
+      position: {x: -1.6467651e-10, y: 0.007269737, z: -0.029223137}
+      rotation: {x: 0, y: 0.0024663797, z: -0, w: 0.99999696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKmessureConstrainToLeg2_L
+      parentName: rabbitrig_1_:RollToes5_L
+      position: {x: -1.6467652e-10, y: 0.007269737, z: -0.029223137}
+      rotation: {x: 0, y: 0.0024663797, z: -0, w: 0.99999696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKOffsetToes5_L
+      parentName: rabbitrig_1_:RollToes4_L
+      position: {x: -1.5866242e-10, y: 0.0066662673, z: -0.02679729}
+      rotation: {x: 0.7018011, y: -0.08551884, z: 0.70191634, w: -0.08645931}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKExtraToes5_L
+      parentName: rabbitrig_1_:IKOffsetToes5_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKToes5_L
+      parentName: rabbitrig_1_:IKExtraToes5_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKToes5Handle_L
+      parentName: rabbitrig_1_:IKToes5_L
+      position: {x: 0.027614016, y: -1.123962e-13, z: -7.655853e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg2_L
+      parentName: rabbitrig_1_:IKHandleFollowMain
+      position: {x: -0.065926395, y: 0.04624444, z: -0.068838656}
+      rotation: {x: 0.00022833166, y: -0.00003153414, z: -0.000065852626, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleExtraLeg2_L
+      parentName: rabbitrig_1_:PoleOffsetLeg2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleLeg2_L
+      parentName: rabbitrig_1_:PoleExtraLeg2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleLocLeg2_L
+      parentName: rabbitrig_1_:PoleLeg2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleAimLeg2_L
+      parentName: rabbitrig_1_:IKHandleFollowMain
+      position: {x: -1.2172961e-25, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0.21192625, y: -0.5166182, z: 0.8181734, w: -0.13705909}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpineHandle_M
+      parentName: rabbitrig_1_:IKHandle
+      position: {x: 5.7917093e-10, y: 0.07533504, z: 0.010604392}
+      rotation: {x: -0.70655286, y: -0.027982267, z: 0.7065529, w: 0.027982267}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKPoleVector
+      parentName: rabbitrig_1_:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKFollow
+      parentName: rabbitrig_1_:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg1_RFollowNoScaleOffset
+      parentName: rabbitrig_1_:IKFollow
+      position: {x: 4.2156725e-10, y: 0.07862428, z: 0.021402134}
+      rotation: {x: 0.25450417, y: 0.73840874, z: 0.48545894, w: 0.39282277}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg1_RFollowNoScale
+      parentName: rabbitrig_1_:PoleOffsetLeg1_RFollowNoScaleOffset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg1_RFollowOffset
+      parentName: rabbitrig_1_:IKFollow
+      position: {x: 0.032247618, y: 0.04895984, z: 0.0150093855}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg1_RFollow
+      parentName: rabbitrig_1_:PoleOffsetLeg1_RFollowOffset
+      position: {x: -5.5511148e-18, y: 0, z: -1.9428901e-17}
+      rotation: {x: -1.6653345e-16, y: 3.330669e-16, z: -1.3877789e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKhybridFollowSpine1_MFollowNoScaleOffset
+      parentName: rabbitrig_1_:IKFollow
+      position: {x: -1.7082319e-37, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKhybridFollowSpine1_MFollowNoScale
+      parentName: rabbitrig_1_:IKhybridFollowSpine1_MFollowNoScaleOffset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKhybridFollowSpine1_MFollowOffset
+      parentName: rabbitrig_1_:IKFollow
+      position: {x: 1.0538671e-31, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0.7055819, y: -0.0464137, z: -0.7055819, w: 0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKhybridFollowSpine1_MFollow
+      parentName: rabbitrig_1_:IKhybridFollowSpine1_MFollowOffset
+      position: {x: -0, y: -1.11022296e-17, z: -7.8886086e-32}
+      rotation: {x: -4.9266147e-16, y: 5.551115e-17, z: -5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg2_RFollowNoScaleOffset
+      parentName: rabbitrig_1_:IKFollow
+      position: {x: -1.2172961e-25, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0.13705908, y: 0.8181734, z: 0.5166182, w: 0.21192628}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg2_RFollowNoScale
+      parentName: rabbitrig_1_:PoleOffsetLeg2_RFollowNoScaleOffset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg2_RFollowOffset
+      parentName: rabbitrig_1_:IKFollow
+      position: {x: 0.06592559, y: 0.04622788, z: -0.06882792}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg2_RFollow
+      parentName: rabbitrig_1_:PoleOffsetLeg2_RFollowOffset
+      position: {x: 0.00000081142355, y: 0.000016558368, z: -0.000010742588}
+      rotation: {x: 0.00022833166, y: 0.00003153414, z: 0.000065852626, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg1_LFollowNoScaleOffset
+      parentName: rabbitrig_1_:IKFollow
+      position: {x: 4.2156725e-10, y: 0.07862428, z: 0.021402134}
+      rotation: {x: 0.3928228, y: -0.485459, z: 0.73840874, w: -0.25450414}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg1_LFollowNoScale
+      parentName: rabbitrig_1_:PoleOffsetLeg1_LFollowNoScaleOffset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg1_LFollowOffset
+      parentName: rabbitrig_1_:IKFollow
+      position: {x: -0.032247618, y: 0.04895984, z: 0.015009387}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg1_LFollow
+      parentName: rabbitrig_1_:PoleOffsetLeg1_LFollowOffset
+      position: {x: -1.11022296e-17, y: -5.5511148e-18, z: 1.6653344e-17}
+      rotation: {x: -5.551115e-17, y: 2.7755578e-16, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg2_LFollowNoScaleOffset
+      parentName: rabbitrig_1_:IKFollow
+      position: {x: -1.2172961e-25, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0.21192625, y: -0.5166182, z: 0.8181734, w: -0.13705909}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg2_LFollowNoScale
+      parentName: rabbitrig_1_:PoleOffsetLeg2_LFollowNoScaleOffset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg2_LFollowOffset
+      parentName: rabbitrig_1_:IKFollow
+      position: {x: -0.06592559, y: 0.04622788, z: -0.06882792}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg2_LFollow
+      parentName: rabbitrig_1_:PoleOffsetLeg2_LFollowOffset
+      position: {x: -0.00000081142355, y: 0.000016558368, z: -0.000010742587}
+      rotation: {x: 0.00022833166, y: -0.00003153414, z: -0.000065852626, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKStatic
+      parentName: rabbitrig_1_:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg1_RStaticOffset
+      parentName: rabbitrig_1_:IKStatic
+      position: {x: 0.032247618, y: 0.04895984, z: 0.0150093855}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg1_RStatic
+      parentName: rabbitrig_1_:PoleOffsetLeg1_RStaticOffset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKhybridFollowSpine1_MStaticOffset
+      parentName: rabbitrig_1_:IKStatic
+      position: {x: 1.0538671e-31, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0.7055819, y: -0.0464137, z: -0.7055819, w: 0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKhybridFollowSpine1_MStatic
+      parentName: rabbitrig_1_:IKhybridFollowSpine1_MStaticOffset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg2_RStaticOffset
+      parentName: rabbitrig_1_:IKStatic
+      position: {x: 0.06592559, y: 0.04622788, z: -0.06882792}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg2_RStatic
+      parentName: rabbitrig_1_:PoleOffsetLeg2_RStaticOffset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg1_LStaticOffset
+      parentName: rabbitrig_1_:IKStatic
+      position: {x: -0.032247618, y: 0.04895984, z: 0.015009387}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg1_LStatic
+      parentName: rabbitrig_1_:PoleOffsetLeg1_LStaticOffset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg2_LStaticOffset
+      parentName: rabbitrig_1_:IKStatic
+      position: {x: -0.06592559, y: 0.04622788, z: -0.06882792}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:PoleOffsetLeg2_LStatic
+      parentName: rabbitrig_1_:PoleOffsetLeg2_LStaticOffset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKCurve
+      parentName: rabbitrig_1_:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKSpineCurve_M
+      parentName: rabbitrig_1_:IKCurve
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKMessure
+      parentName: rabbitrig_1_:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKmessureLoc1Leg1_R
+      parentName: rabbitrig_1_:IKMessure
+      position: {x: 0.032247603, y: 0.061670538, z: 0.04425382}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKmessureLoc2Leg1_R
+      parentName: rabbitrig_1_:IKmessureLoc1Leg1_R
+      position: {x: -0.0000000020287292, y: -0.02651031, z: -0.0037371062}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKdistanceLeg1_R
+      parentName: rabbitrig_1_:IKMessure
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKmessureLoc1Leg2_R
+      parentName: rabbitrig_1_:IKMessure
+      position: {x: 0.06450997, y: 0.0610881, z: -0.034701787}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKmessureLoc2Leg2_R
+      parentName: rabbitrig_1_:IKmessureLoc1Leg2_R
+      position: {x: -0.0002306027, y: -0.033083886, z: -0.0017719642}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKdistanceLeg2_R
+      parentName: rabbitrig_1_:IKMessure
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKmessureLoc1Leg1_L
+      parentName: rabbitrig_1_:IKMessure
+      position: {x: -0.032247603, y: 0.061670538, z: 0.04425382}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKmessureLoc2Leg1_L
+      parentName: rabbitrig_1_:IKmessureLoc1Leg1_L
+      position: {x: 0.0000000019043527, y: -0.02651031, z: -0.0037371062}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKdistanceLeg1_L
+      parentName: rabbitrig_1_:IKMessure
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKmessureLoc1Leg2_L
+      parentName: rabbitrig_1_:IKMessure
+      position: {x: -0.06450997, y: 0.0610881, z: -0.034701787}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKmessureLoc2Leg2_L
+      parentName: rabbitrig_1_:IKmessureLoc1Leg2_L
+      position: {x: 0.00023060244, y: -0.033083886, z: -0.0017719653}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKdistanceLeg2_L
+      parentName: rabbitrig_1_:IKMessure
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKScaler
+      parentName: rabbitrig_1_:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKScalerRoot_M
+      parentName: rabbitrig_1_:IKScaler
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKScalerSpine1_M
+      parentName: rabbitrig_1_:IKScaler
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKScalerSpine11_M
+      parentName: rabbitrig_1_:IKScaler
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:IKScalerChest_M
+      parentName: rabbitrig_1_:IKScaler
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKIKSystem
+      parentName: rabbitrig_1_:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKIKParentConstraintLeg1_R
+      parentName: rabbitrig_1_:FKIKSystem
+      position: {x: 4.2156725e-10, y: 0.07862428, z: 0.021402134}
+      rotation: {x: -0.7070437, y: -0.009447571, z: 0.7070437, w: 0.009447571}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKIKLeg1_R
+      parentName: rabbitrig_1_:FKIKParentConstraintLeg1_R
+      position: {x: -0.01975738, y: 0.02959443, z: -0.043238193}
+      rotation: {x: 0.707044, y: 0.0094476035, z: -0.70704335, w: 0.009447612}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKIKParentConstraintLeg2_R
+      parentName: rabbitrig_1_:FKIKSystem
+      position: {x: -1.2172961e-25, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0.7055819, y: -0.046413675, z: -0.7055819, w: 0.046413675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKIKLeg2_R
+      parentName: rabbitrig_1_:FKIKParentConstraintLeg2_R
+      position: {x: -0.013289994, y: 0.015077347, z: -0.074386425}
+      rotation: {x: 0.7055819, y: -0.0464137, z: -0.7055819, w: -0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKIKParentConstraintSpine_M
+      parentName: rabbitrig_1_:FKIKSystem
+      position: {x: -1.2172961e-25, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0.7055819, y: -0.046413675, z: -0.7055819, w: 0.046413675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKIKSpine_M
+      parentName: rabbitrig_1_:FKIKParentConstraintSpine_M
+      position: {x: -0.013721602, y: -1.11022296e-17, z: 0.011770837}
+      rotation: {x: 0.7055819, y: -0.0464137, z: -0.7055819, w: -0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKIKParentConstraintLeg1_L
+      parentName: rabbitrig_1_:FKIKSystem
+      position: {x: 4.2156725e-10, y: 0.07862428, z: 0.021402134}
+      rotation: {x: -0.7070437, y: -0.009447571, z: 0.7070437, w: 0.009447571}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKIKLeg1_L
+      parentName: rabbitrig_1_:FKIKParentConstraintLeg1_L
+      position: {x: -0.01975738, y: 0.02959443, z: 0.043238193}
+      rotation: {x: 0.707044, y: 0.009447604, z: -0.7070434, w: 0.009447613}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKIKParentConstraintLeg2_L
+      parentName: rabbitrig_1_:FKIKSystem
+      position: {x: -1.2172961e-25, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0.7055819, y: -0.046413675, z: -0.7055819, w: 0.046413675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:FKIKLeg2_L
+      parentName: rabbitrig_1_:FKIKParentConstraintLeg2_L
+      position: {x: -0.013289995, y: 0.015077347, z: 0.074386425}
+      rotation: {x: 0.7055819, y: -0.0464137, z: -0.7055819, w: -0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:BendSystem
+      parentName: rabbitrig_1_:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:BendCurve
+      parentName: rabbitrig_1_:BendSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:BendJoints
+      parentName: rabbitrig_1_:BendSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:BendMPX
+      parentName: rabbitrig_1_:BendSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:AimSystem
+      parentName: rabbitrig_1_:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RootSystem
+      parentName: rabbitrig_1_:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RootFollowMain
+      parentName: rabbitrig_1_:RootSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RootCenter_M
+      parentName: rabbitrig_1_:RootFollowMain
+      position: {x: 4.1359028e-26, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RootCenterBtwLegs_M
+      parentName: rabbitrig_1_:RootFollowMain
+      position: {x: 2.8486166e-10, y: 0.060655423, z: 0.0020315812}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RootCenterBtwLegsOffset_M
+      parentName: rabbitrig_1_:RootCenterBtwLegs_M
+      position: {x: -2.8486166e-10, y: 0, z: -0.05361897}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:LegLockConstrained
+      parentName: rabbitrig_1_:RootSystem
+      position: {x: -1.2172961e-25, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0.7055819, y: -0.046413675, z: -0.7055819, w: 0.046413675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RootCenterBtwLegsBlended_M
+      parentName: rabbitrig_1_:RootSystem
+      position: {x: 4.1359028e-26, y: 0.060655423, z: -0.051587395}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RootOffsetX_M
+      parentName: rabbitrig_1_:RootCenterBtwLegsBlended_M
+      position: {x: -4.1359028e-26, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RootExtraX_M
+      parentName: rabbitrig_1_:RootOffsetX_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:RootX_M
+      parentName: rabbitrig_1_:RootExtraX_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:TwistSystem
+      parentName: rabbitrig_1_:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:TwistFollowOffsetSpine2_M
+      parentName: rabbitrig_1_:TwistSystem
+      position: {x: -5.989481e-16, y: 0.067008115, z: -0.014415558}
+      rotation: {x: -0.7055819, y: 0.0464137, z: 0.7055819, w: -0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:TwistFollowSpine2_M
+      parentName: rabbitrig_1_:TwistFollowOffsetSpine2_M
+      position: {x: 2.081668e-18, y: 1.11022296e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:UnTwistIKSpine2_M
+      parentName: rabbitrig_1_:TwistFollowSpine2_M
+      position: {x: -0.015950682, y: 1.11022296e-17, z: 3.541763e-18}
+      rotation: {x: 0.7055819, y: -0.0464137, z: -0.7055819, w: -0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:TwistFollowParentOffsetSpine2_M
+      parentName: rabbitrig_1_:TwistSystem
+      position: {x: -5.989481e-16, y: 0.067008115, z: -0.014415558}
+      rotation: {x: -0.7055819, y: 0.0464137, z: 0.7055819, w: -0.0464137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:TwistFollowParentSpine2_M
+      parentName: rabbitrig_1_:TwistFollowParentOffsetSpine2_M
+      position: {x: 2.081668e-18, y: 1.11022296e-17, z: 1.0339757e-26}
+      rotation: {x: -3.7829387e-10, y: -0.0000000057508456, z: 4.8572257e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:UnTwistSpine2_M
+      parentName: rabbitrig_1_:TwistFollowParentSpine2_M
+      position: {x: -1.3877787e-18, y: 0, z: 1.0339757e-26}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:UnTwistEndSpine2_M
+      parentName: rabbitrig_1_:UnTwistSpine2_M
+      position: {x: -0.015950682, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:TwistBalancerSpine2_M
+      parentName: rabbitrig_1_:UnTwistSpine2_M
+      position: {x: -1.3877787e-18, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:GlobalSystem
+      parentName: rabbitrig_1_:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:GlobalFollowMain
+      parentName: rabbitrig_1_:GlobalSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:ConstraintSystem
+      parentName: rabbitrig_1_:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:DynamicSystem
+      parentName: rabbitrig_1_:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:DrivingSystem
+      parentName: rabbitrig_1_:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:DeformationSystem
+      parentName: rabbitrig_1_:Group
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Root_M
+      parentName: rabbitrig_1_:DeformationSystem
+      position: {x: -1.2172961e-25, y: 0.060655423, z: -0.051587395}
+      rotation: {x: -0.7055819, y: 0.046413697, z: 0.70558184, w: -0.046413697}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+    - name: rabbitrig_1_:Knee_R
+      parentName: rabbitrig_1_:Root_M
+      position: {x: -0.01679678, y: 0.0017829757, z: -0.06450997}
+      rotation: {x: -0.013069717, y: 0.019234115, z: -0.80248743, w: 0.59621567}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Ankle_R
+      parentName: rabbitrig_1_:Knee_R
+      position: {x: -0.016718311, y: -5.5511148e-18, z: 0}
+      rotation: {x: -3.1796856e-17, y: -1.2662192e-16, z: 0.108258136, w: 0.9941228}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Toes3_R
+      parentName: rabbitrig_1_:Ankle_R
+      position: {x: -0.016609665, y: 1.11022296e-17, z: 2.2204459e-17}
+      rotation: {x: 0.9962317, y: 0.07002218, z: 0.029976636, w: -0.041481733}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.9999996}
+    - name: rabbitrig_1_:Toes5_R
+      parentName: rabbitrig_1_:Toes3_R
+      position: {x: -0.0301138, y: 4.7184477e-17, z: 4.4408918e-17}
+      rotation: {x: -9.313226e-10, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1, z: 1.0000002}
+    - name: rabbitrig_1_:Toes4_R
+      parentName: rabbitrig_1_:Toes5_R
+      position: {x: -0.027614016, y: -2.4980017e-17, z: 5.5511148e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Knee_L
+      parentName: rabbitrig_1_:Root_M
+      position: {x: -0.01679678, y: 0.0017829757, z: 0.06450997}
+      rotation: {x: -0.019234117, y: -0.01306972, z: 0.5962156, w: 0.8024875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Ankle_L
+      parentName: rabbitrig_1_:Knee_L
+      position: {x: 0.016718311, y: 0, z: 3.330669e-17}
+      rotation: {x: -3.1796856e-17, y: -1.2662192e-16, z: 0.10825813, w: 0.9941228}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Toes3_L
+      parentName: rabbitrig_1_:Ankle_L
+      position: {x: 0.016609665, y: 1.11022296e-16, z: 1.11022296e-17}
+      rotation: {x: 0.99623173, y: 0.07002219, z: 0.029976439, w: -0.041481856}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000004}
+    - name: rabbitrig_1_:Toes5_L
+      parentName: rabbitrig_1_:Toes3_L
+      position: {x: 0.0301138, y: -2.7755573e-16, z: 2.2204459e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+    - name: rabbitrig_1_:Toes4_L
+      parentName: rabbitrig_1_:Toes5_L
+      position: {x: 0.027614016, y: 2.2204459e-17, z: -5.5511148e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Spine1_M
+      parentName: rabbitrig_1_:Root_M
+      position: {x: -0.027598996, y: -2.7755573e-16, z: 1.4396966e-17}
+      rotation: {x: -0.000000014901158, y: -0, z: 0.4189611, w: 0.9080042}
+      scale: {x: 1.0000006, y: 1.0000007, z: 1.0000005}
+    - name: rabbitrig_1_:Spine11_M
+      parentName: rabbitrig_1_:Spine1_M
+      position: {x: -0.024408622, y: 9.992007e-17, z: 4.5366984e-16}
+      rotation: {x: -0.000000009201783, y: -0.000000059359518, z: 0.115862995, w: 0.9932653}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000001}
+    - name: rabbitrig_1_:Chest_M
+      parentName: rabbitrig_1_:Spine11_M
+      position: {x: -0.023748374, y: -1.11022296e-17, z: 3.0711963e-18}
+      rotation: {x: 0.000000002708768, y: 0.00000006165818, z: -0.23681056, w: 0.9715558}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: rabbitrig_1_:Shoulder_R
+      parentName: rabbitrig_1_:Chest_M
+      position: {x: -0.023296522, y: 0.0163371, z: -0.032247603}
+      rotation: {x: -0.6091284, y: 0.7930716, z: 0.00000021120775, w: -0.00000016222072}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Elbow_R
+      parentName: rabbitrig_1_:Shoulder_R
+      position: {x: -0.016033357, y: -4.9960035e-17, z: 2.768888e-10}
+      rotation: {x: 4.208983e-17, y: 6.674072e-17, z: -0.17916459, w: 0.9838191}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Fingers3_R
+      parentName: rabbitrig_1_:Elbow_R
+      position: {x: -0.01116494, y: -2.8310687e-16, z: 1.8711183e-10}
+      rotation: {x: -0.0027805155, y: -0.0013861589, z: -0.32510105, w: 0.9456742}
+      scale: {x: 1.0000004, y: 1, z: 1.0000004}
+    - name: rabbitrig_1_:Fingers4_R
+      parentName: rabbitrig_1_:Fingers3_R
+      position: {x: -0.024269847, y: 7.294165e-15, z: -4.407113e-12}
+      rotation: {x: 0.0014408742, y: 0.0041923616, z: -0.13729264, w: 0.9905206}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: rabbitrig_1_:Fingers5_R
+      parentName: rabbitrig_1_:Fingers4_R
+      position: {x: -0.03306606, y: -4.4408918e-17, z: 2.2204459e-17}
+      rotation: {x: 0.00000070822426, y: 0.0000003267724, z: -2.3142813e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Shoulder_L
+      parentName: rabbitrig_1_:Chest_M
+      position: {x: -0.023296522, y: 0.0163371, z: 0.032247603}
+      rotation: {x: 0.7930716, y: 0.6091284, z: 0.00000016222072, w: 0.00000021120775}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Elbow_L
+      parentName: rabbitrig_1_:Shoulder_L
+      position: {x: 0.016033357, y: 1.1379786e-16, z: -2.9995376e-10}
+      rotation: {x: 4.208983e-17, y: 6.674072e-17, z: -0.17916459, w: 0.9838191}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Fingers3_L
+      parentName: rabbitrig_1_:Elbow_L
+      position: {x: 0.01116494, y: 2.7755573e-16, z: -1.8878729e-10}
+      rotation: {x: -0.0027804545, y: -0.0013861322, z: -0.32510105, w: 0.9456742}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000002}
+    - name: rabbitrig_1_:Fingers4_L
+      parentName: rabbitrig_1_:Fingers3_L
+      position: {x: 0.024269847, y: 7.238654e-15, z: -4.407113e-12}
+      rotation: {x: 0.0014408588, y: 0.004192353, z: -0.13729261, w: 0.99052066}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000002}
+    - name: rabbitrig_1_:Fingers5_L
+      parentName: rabbitrig_1_:Fingers4_L
+      position: {x: 0.03306606, y: 2.7755574e-17, z: -2.9420909e-16}
+      rotation: {x: 0.0000007100458, y: 0.00000032897532, z: -2.3358756e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Head_M
+      parentName: rabbitrig_1_:Chest_M
+      position: {x: -0.011099362, y: -0.04301947, z: 2.0922525e-16}
+      rotation: {x: -0.000000029808067, y: -0.000000029915018, z: 0.71619165, w: 0.69790363}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000005}
+    - name: rabbitrig_1_:HeadEnd_M
+      parentName: rabbitrig_1_:Head_M
+      position: {x: -0.022737503, y: 0, z: 8.80474e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Eye1_L
+      parentName: rabbitrig_1_:Head_M
+      position: {x: -0.041089665, y: 0.052004013, z: 0.025016738}
+      rotation: {x: 0.2348901, y: 0.20079544, z: -0.6173613, w: 0.72344524}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: rabbitrig_1_:EyeEnd1_L
+      parentName: rabbitrig_1_:Eye1_L
+      position: {x: -0.011892111, y: -2.2204459e-17, z: -2.2204459e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:joint4_R
+      parentName: rabbitrig_1_:Head_M
+      position: {x: -0.06965183, y: -0.0043787947, z: -0.067444645}
+      rotation: {x: -0.025332846, y: -0.80437285, z: -0.0073802914, w: 0.5935386}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999997}
+    - name: rabbitrig_1_:joint5_R
+      parentName: rabbitrig_1_:joint4_R
+      position: {x: -0.034353185, y: 9.56607e-13, z: -8.8817837e-17}
+      rotation: {x: 0.00093637384, y: 0.119347274, z: -0.0083029345, w: 0.9928174}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
+    - name: rabbitrig_1_:joint6_R
+      parentName: rabbitrig_1_:joint5_R
+      position: {x: -0.039327294, y: 1.2002065e-13, z: -6.661338e-17}
+      rotation: {x: 0.00005078955, y: -0.008189118, z: -0.0006933503, w: 0.99996626}
+      scale: {x: 0.9999998, y: 1, z: 1.0000001}
+    - name: rabbitrig_1_:joint7_R
+      parentName: rabbitrig_1_:joint6_R
+      position: {x: -0.037300445, y: -5.5511148e-17, z: 1.9984014e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:joint4_L
+      parentName: rabbitrig_1_:Head_M
+      position: {x: -0.06965183, y: -0.0043787947, z: 0.067444645}
+      rotation: {x: 0.8043728, y: -0.025333032, z: 0.5935387, w: 0.007380171}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: rabbitrig_1_:joint5_L
+      parentName: rabbitrig_1_:joint4_L
+      position: {x: 0.034353185, y: 3.8857802e-17, z: 8.4376944e-16}
+      rotation: {x: 0.00093659, y: 0.11934721, z: -0.008302837, w: 0.99281746}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: rabbitrig_1_:joint6_L
+      parentName: rabbitrig_1_:joint5_L
+      position: {x: 0.039327294, y: 5.5511148e-17, z: 8.6597393e-16}
+      rotation: {x: 0.00005075655, y: -0.008189022, z: -0.0006934946, w: 0.9999662}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: rabbitrig_1_:joint7_L
+      parentName: rabbitrig_1_:joint6_L
+      position: {x: 0.037300445, y: 6.106226e-17, z: -1.7763567e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:Eye_R
+      parentName: rabbitrig_1_:Head_M
+      position: {x: -0.040737245, y: 0.051529035, z: -0.03553055}
+      rotation: {x: -0.2003175, y: -0.092927046, z: -0.5252965, w: 0.8217671}
+      scale: {x: 1.0000008, y: 1.000001, z: 1.0000001}
+    - name: rabbitrig_1_:EyeEnd_R
+      parentName: rabbitrig_1_:Eye_R
+      position: {x: -0.011892186, y: -2.2204459e-16, z: -4.163336e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rabbitrig_1_:joint1_M
+      parentName: rabbitrig_1_:Root_M
+      position: {x: 0.029444156, y: 0.03322946, z: 1.6859662e-10}
+      rotation: {x: -0, y: 0.000000018626451, z: -0.9264735, w: -0.37636006}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: rabbitrig_1_:joint2_M
+      parentName: rabbitrig_1_:joint1_M
+      position: {x: -0.022090469, y: 1.11022296e-17, z: 1.415036e-18}
+      rotation: {x: -0.000000008446513, y: 0.000000030499926, z: -0.08772352, w: 0.9961449}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: rabbitrig_1_:joint3_M
+      parentName: rabbitrig_1_:joint2_M
+      position: {x: -0.044106122, y: 5.5511148e-17, z: 4.783725e-18}
+      rotation: {x: -0, y: -0, z: 2.5761803e-16, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: rabbitrig_1_:Geometry
+      parentName: rabbitrig_1_:Group
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere1
+      parentName: "\u9732\u5A1C\u7761\u89C9\u65B0\u7248\u672C(Clone)"
+      position: {x: -0.01885629, y: 0.15205763, z: 0.09450395}
+      rotation: {x: -0.59632033, y: 0, z: -0, w: 0.8027466}
+      scale: {x: 0.24453142, y: 0.24453142, z: 0.24453142}
+    - name: pSphere2
+      parentName: "\u9732\u5A1C\u7761\u89C9\u65B0\u7248\u672C(Clone)"
+      position: {x: 0.040762424, y: 0.14337434, z: 0.092681974}
+      rotation: {x: -0.59632033, y: 0, z: -0, w: 0.8027466}
+      scale: {x: 0.25371838, y: 0.25371838, z: 0.25371838}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 5
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
