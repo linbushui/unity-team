@@ -5,18 +5,20 @@ using UnityEngine.XR.ARSubsystems;
 
 public class TapToPlace : MonoBehaviour
 {
-    [Header("放置的物体")]
-    public GameObject objectToPlace;
+    [Header("入场兔子模型 Luna_Hat")]
+    public GameObject entryRabbitPrefab;
+
     [Header("是否允许放置")]
     public bool canPlace = true;
+
     [Header("Animator中的Trigger名称")]
-    public string triggerName = "Appear"; 
+    public string triggerName = "appear";
 
     private ARRaycastManager raycastManager;
     private ARPlaneManager planeManager;
     private ARPointCloudManager pointCloudManager;
 
-    private bool isDragging = false;
+    private GameObject currentRabbit;
 
     void Awake()
     {
@@ -27,75 +29,70 @@ public class TapToPlace : MonoBehaviour
 
     void Update()
     {
+        if (!canPlace) return;
         if (Input.touchCount == 0) return;
+
         Touch touch = Input.GetTouch(0);
 
-        if (touch.phase == TouchPhase.Began && canPlace)
+        if (touch.phase == TouchPhase.Began)
         {
-            TryPlaceObject(touch.position);
-        }
-        else if (touch.phase == TouchPhase.Moved && !canPlace && isDragging)
-        {
-            UpdateDragging(touch.position);
-        }
-        else if (touch.phase == TouchPhase.Ended && isDragging)
-        {
-            isDragging = false;
-            Debug.Log("拖拽结束");
+            TryPlaceRabbit(touch.position);
         }
     }
 
-    private void TryPlaceObject(Vector2 touchPos)
+    private void TryPlaceRabbit(Vector2 touchPos)
     {
-        var hits = new List<ARRaycastHit>();
+        List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
-        if (raycastManager.Raycast(touchPos, hits, TrackableType.PlaneWithinPolygon))
+        if (!raycastManager.Raycast(touchPos, hits, TrackableType.PlaneWithinPolygon))
+            return;
+
+        Pose hitPose = hits[0].pose;
+
+        if (entryRabbitPrefab == null)
         {
-            Pose hitPose = hits[0].pose;
-
-            if (objectToPlace != null)
-            {
-                // 放到点击位置并朝向相机
-                objectToPlace.transform.position = hitPose.position;
-                objectToPlace.transform.LookAt(Camera.main.transform);
-
-                // 触发Animator中的Appear Trigger
-                Animator animator = objectToPlace.GetComponent<Animator>();
-                if (animator != null)
-                {
-                    animator.SetTrigger(triggerName);
-                    Debug.Log($"触发动画 Trigger：{triggerName}");
-                }
-                else
-                {
-                    Debug.LogWarning("目标没有 Animator 组件");
-                }
-
-                // 禁用物理
-                var rb = objectToPlace.GetComponent<Rigidbody>();
-                if (rb != null)
-                {
-                    rb.isKinematic = true;
-                    rb.useGravity = false;
-                }
-
-                // 隐藏平面
-                HidePlaneAndPointCloud();
-                canPlace = false;
-                isDragging = true;
-            }
+            Debug.LogError("Entry Rabbit Prefab 没有绑定");
+            return;
         }
+
+        currentRabbit = Instantiate(entryRabbitPrefab, hitPose.position, Quaternion.identity);
+
+        FaceCameraYOnly(currentRabbit.transform);
+
+        Rigidbody rb = currentRabbit.GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            rb.isKinematic = true;
+            rb.useGravity = false;
+        }
+
+        Animator animator = currentRabbit.GetComponent<Animator>();
+        if (animator != null)
+        {
+            animator.ResetTrigger(triggerName);
+            animator.SetTrigger(triggerName);
+            Debug.Log($"触发兔子入场 Trigger：{triggerName}");
+        }
+        else
+        {
+            Debug.LogWarning("生成的入场兔子没有 Animator 组件");
+        }
+
+        HidePlaneAndPointCloud();
+
+        canPlace = false;
     }
 
-    private void UpdateDragging(Vector2 touchPos)
+    private void FaceCameraYOnly(Transform target)
     {
-        if (objectToPlace == null) return;
-        var hits = new List<ARRaycastHit>();
+        if (Camera.main == null) return;
 
-        if (raycastManager.Raycast(touchPos, hits, TrackableType.PlaneWithinPolygon))
+        Vector3 direction = Camera.main.transform.position - target.position;
+        direction.y = 0f;
+
+        if (direction.sqrMagnitude > 0.001f)
         {
-            Pose hitPose = hits[0].pose;
-            objectToPlace.transform.position = hitPose.position;
+            target.rotation = Quaternion.LookRotation(direction);
         }
     }
 
@@ -105,14 +102,14 @@ public class TapToPlace : MonoBehaviour
         {
             foreach (var plane in planeManager.trackables)
                 plane.gameObject.SetActive(false);
-            planeManager.enabled = true;
         }
 
         if (pointCloudManager != null)
         {
             foreach (var pointCloud in pointCloudManager.trackables)
                 pointCloud.gameObject.SetActive(false);
-            pointCloudManager.enabled = true;
         }
+
+        Debug.Log("平面和点云已隐藏");
     }
 }
