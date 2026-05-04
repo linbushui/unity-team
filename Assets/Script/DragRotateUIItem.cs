@@ -22,7 +22,7 @@ public class DragSpawnUIItem : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     void Start()
     {
         arCamera = Camera.main;
-        raycastManager = FindObjectOfType<ARRaycastManager>();
+        raycastManager = FindFirstObjectByType<ARRaycastManager>();
     }
 
     public void OnBeginDrag(PointerEventData eventData)
