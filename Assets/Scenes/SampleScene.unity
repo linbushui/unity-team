@@ -19693,6 +19693,7 @@ GameObject:
   - component: {fileID: 1454538633}
   - component: {fileID: 1454538632}
   - component: {fileID: 1454538631}
+  - component: {fileID: 1454538634}
   m_Layer: 5
   m_Name: icon
   m_TagString: Untagged
@@ -19762,7 +19763,6 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1454538632}
   m_OnClick:
     m_PersistentCalls:
-<<<<<<< Updated upstream
       m_Calls:
       - m_Target: {fileID: 1454538634}
         m_TargetAssemblyTypeName: IconToggle, Assembly-CSharp
@@ -19788,9 +19788,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-=======
-      m_Calls: []
->>>>>>> Stashed changes
 --- !u!114 &1454538632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19829,6 +19826,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1454538629}
   m_CullTransparentMesh: 1
+--- !u!114 &1454538634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454538629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbc986801ebb149ad982526856efa611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iconImage: {fileID: 1454538632}
+  playSprite: {fileID: 21300000, guid: 3fa5d8efbd73d4a11a82922206371e4a, type: 3}
+  muteSprite: {fileID: 21300000, guid: 05f428e4f42c74b819d2420771b8769c, type: 3}
+  isPlaying: 1
 --- !u!1 &1456137575
 GameObject:
   m_ObjectHideFlags: 0
