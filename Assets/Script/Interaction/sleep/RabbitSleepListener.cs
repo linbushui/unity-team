@@ -8,6 +8,10 @@ public class RabbitBedListener : MonoBehaviour
     [Header("窝模型（Bed Model）")]
     public GameObject bedModel;
 
+    [Header("音效设置")]
+    public AudioSource audioSource; // 音频播放组件
+    public AudioClip sleepSound;    // 进窝时播放的音效文件
+
     public Vector3 spawnPoint;
     public bool isInBed = false;
 
@@ -22,50 +26,51 @@ public class RabbitBedListener : MonoBehaviour
         spawnPoint = pos;
     }
 
-    void OnMouseDown()
-    {
-        // 如果点击的是窝，不在这个脚本处理，由窝自己的 BedWarp 处理
-        // 但这个脚本是为了让 idle 响应窝的点击，所以我们会通过另一个方式触发
-    }
-
     // 这个方法给 BedWarp 调用
     public void EnterBed(Transform bedTransform)
-{
-    if (isInBed) return;
+    {
+        if (isInBed) return;
 
-    // 隐藏自己（idle）
-    gameObject.SetActive(false);
+        // 1. 隐藏自己（idle）
+        gameObject.SetActive(false);
 
-    // 显示睡觉模型，位置和角度对齐窝
-    sleepModel.transform.position = bedTransform.position;
-    sleepModel.transform.rotation = bedTransform.rotation;
-    sleepModel.SetActive(true);
+        // 2. 显示睡觉模型，位置和角度对齐窝
+        sleepModel.transform.position = bedTransform.position;
+        sleepModel.transform.rotation = bedTransform.rotation;
+        sleepModel.SetActive(true);
 
-    // 隐藏窝的视觉模型
-    if (bedModel != null)
-        bedModel.SetActive(false);
+        // 3. 隐藏窝的视觉模型
+        if (bedModel != null)
+            bedModel.SetActive(false);
 
-    isInBed = true;
-    Debug.Log("兔子进窝");
-}
+        // 4. 播放睡觉音效
+        if (audioSource != null && sleepSound != null)
+        {
+            audioSource.PlayOneShot(sleepSound);
+            Debug.Log("兔子进窝，播放音效");
+        }
 
-public void ExitBed()
-{
-    if (!isInBed) return;
+        isInBed = true;
+        Debug.Log("兔子进窝");
+    }
 
-    // 隐藏睡觉模型
-    if (sleepModel != null)
-        sleepModel.SetActive(false);
+    public void ExitBed()
+    {
+        if (!isInBed) return;
 
-    // 显示窝的视觉模型
-    if (bedModel != null)
-        bedModel.SetActive(true);
+        // 隐藏睡觉模型
+        if (sleepModel != null)
+            sleepModel.SetActive(false);
 
-    // 自己回到出生点并显示
-    transform.position = spawnPoint;
-    gameObject.SetActive(true);
+        // 显示窝的视觉模型
+        if (bedModel != null)
+            bedModel.SetActive(true);
 
-    isInBed = false;
-    Debug.Log("兔子出窝");
-}
+        // 自己回到出生点并显示
+        transform.position = spawnPoint;
+        gameObject.SetActive(true);
+
+        isInBed = false;
+        Debug.Log("兔子出窝");
+    }
 }
