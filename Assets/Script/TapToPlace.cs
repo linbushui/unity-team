@@ -79,12 +79,6 @@ public class TapToPlace : MonoBehaviour
         }
 
         HidePlaneAndPointCloud();
-       RabbitBedListener rabbitListener = FindObjectOfType<RabbitBedListener>();
-if (rabbitListener != null && rabbitListener.spawnPoint == Vector3.zero)
-{
-    rabbitListener.spawnPoint = currentRabbit.transform.position;
-    Debug.Log($"TapToPlace 设置出生点：{currentRabbit.transform.position}");
-}
 
         canPlace = false;
     }
