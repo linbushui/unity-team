@@ -7,7 +7,7 @@ public class ScreenDebug : MonoBehaviour
     private string log = "";
 
     // 只显示包含这些关键词的日志
-    private string[] keywords = { "PET" };
+    private string[] keywords = { "Test", "Head", "Drag"};
 
     void OnEnable()
     {
@@ -21,7 +21,6 @@ public class ScreenDebug : MonoBehaviour
 
     void HandleLog(string logString, string stackTrace, LogType type)
     {
-        // 检查是否包含关键词
         bool show = false;
         foreach (string kw in keywords)
         {
@@ -34,7 +33,18 @@ public class ScreenDebug : MonoBehaviour
 
         if (show)
         {
-            log = logString;
+            // ✅ 追加日志，而不是替换
+            log += "\n" + logString;
+
+            // 可选：限制最多显示20行，避免文字太多
+            string[] lines = log.Split('\n');
+            if (lines.Length > 20)
+            {
+                log = "";
+                for (int i = lines.Length - 20; i < lines.Length; i++)
+                    log += lines[i] + "\n";
+            }
+
             if (debugText != null)
                 debugText.text = log;
         }

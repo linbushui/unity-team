@@ -92,9 +92,58 @@ public class DragSpawnUIItem : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         }
     }
 
+
     public void OnEndDrag(PointerEventData eventData)
+{
+    if (currentObject != null)
     {
-        currentObject = null;
-        rotating = false;
+        // 尝试检测是否碰到兔子头部
+        TryTriggerRabbitHead(currentObject);
     }
+
+    currentObject = null;
+    rotating = false;
+}
+
+private void TryTriggerRabbitHead(GameObject obj)
+{
+    // 找兔子头部的触发器
+    HeadTriggerHandler headHandler = FindObjectOfType<HeadTriggerHandler>();
+    if (headHandler == null)
+    {
+        Debug.LogWarning("[Drag] cant find HeadTriggerHandler");
+        return;
+    }
+
+    // 获取兔子头部的碰撞体范围
+    Collider headCollider = headHandler.GetComponent<Collider>();
+    if (headCollider == null)
+    {
+        Debug.LogWarning("[Drag] no head Collider");
+        return;
+    }
+
+    // 检查物品是否和头部碰撞体重叠
+    if (headCollider.bounds.Intersects(obj.GetComponent<Collider>().bounds))
+    {
+        Debug.Log($"[Drag] item {obj.name} touch head");
+
+        if (obj.CompareTag("Carrot"))
+        {
+            headHandler.OnCarrotEnter(obj);
+        }
+        else if (obj.CompareTag("Bow"))
+        {
+            headHandler.OnBowEnter(obj);
+        }
+        else
+        {
+            Debug.Log($"[Drag] unknown item Tag: {obj.tag}");
+        }
+    }
+    else
+    {
+        Debug.Log("[Drag] item havent touch head");
+    }
+}
 }

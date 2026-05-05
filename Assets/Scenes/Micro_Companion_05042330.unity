@@ -29127,6 +29127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bowl Model
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6f695769fd7883a41af38a4060405d7b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 969020947670518972, guid: 6f695769fd7883a41af38a4060405d7b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -78035,6 +78039,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sleepModel: {fileID: 208988827565107182}
   bedModel: {fileID: 124714527}
+  audioSource: {fileID: 0}
+  sleepSound: {fileID: 0}
   spawnPoint: {x: 0, y: 0, z: 0}
   isInBed: 0
 --- !u!114 &5872996255855495145
